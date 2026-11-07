@@ -342,4 +342,156 @@ describe("Google DeepMind Carbon — MCP JSON-RPC 2.0, OpenAI /v1 Gateway & Web 
     expect(benchJson.dotProduct).toBe(1_000_000);
     expect(benchJson.cosineSimilarity).toBe(1);
   });
+
+  test("10. Carbon Super-Runtime: OpenPets/Mochi 2D/3D, Voicebox 6 HD + FFI DSP, Cookie Vault, agy Tunnel, yolo-re-google Matrix & Real Hardware", async () => {
+    const healthRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/health"),
+    );
+    expect(healthRes.status).toBe(200);
+    const health = (await healthRes.json()) as {
+      ok: boolean;
+      authenticated: boolean;
+      cookieCount: number;
+    };
+    expect(health.ok).toBe(true);
+    expect(health.authenticated).toBe(true);
+    expect(health.cookieCount).toBeGreaterThanOrEqual(20);
+
+    // OpenPets & Mochi 2D/3D
+    const petCustomRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/api/pet/customize", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          character: "mochi",
+          reaction: "celebrate",
+          speechText: "Gemini 4 Argon & Carbon Live!",
+          customStyle: { accessory: "crown", is3dMode: true },
+        }),
+      }),
+    );
+    expect(petCustomRes.status).toBe(200);
+    const petCustom = (await petCustomRes.json()) as {
+      ok: boolean;
+      state: {
+        character: string;
+        reaction: string;
+        spritesAvailable: { total: number };
+      };
+    };
+    expect(petCustom.ok).toBe(true);
+    expect(petCustom.state.character).toBe("mochi");
+    expect(petCustom.state.reaction).toBe("celebrate");
+    expect(petCustom.state.spritesAvailable.total).toBe(396);
+
+    const svgRes = await handleWebRequest(
+      new Request(
+        "http://127.0.0.1:4040/assets/openpets/gemini-pet-spritesheet.svg",
+      ),
+    );
+    expect(svgRes.status).toBe(200);
+    expect(await svgRes.text()).toContain("<svg");
+
+    const glbRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/assets/openpets/gemini-pet-3d.glb"),
+    );
+    expect(glbRes.status).toBe(200);
+    const glbBytes = new Uint8Array(await glbRes.arrayBuffer());
+    expect(glbBytes[0]).toBe(0x67); // 'g'
+    expect(glbBytes[1]).toBe(0x6c); // 'l'
+    expect(glbBytes[2]).toBe(0x54); // 'T'
+    expect(glbBytes[3]).toBe(0x46); // 'F'
+
+    // Voicebox 6 HD Voices + Bare-Metal Rust FFI Audio DSP + Uncensored Gemma 4
+    const synthRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/api/voicebox/synthesize", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          text: "Testing Carbon Voicebox Aoede HD with Uncensored Gemma 4",
+          voice: "Aoede",
+          uncensoredGemma4: true,
+        }),
+      }),
+    );
+    expect(synthRes.status).toBe(200);
+    const synth = (await synthRes.json()) as {
+      ok: boolean;
+      voice: string;
+      rmsAmplitude: number;
+      spectrum32Bands: number[];
+      resampled16kHzLength: number;
+      uncensoredGemma4LayerNorm?: number;
+    };
+    expect(synth.ok).toBe(true);
+    expect(synth.voice).toBe("Aoede");
+    expect(synth.rmsAmplitude).toBeGreaterThan(0.1);
+    expect(synth.spectrum32Bands.length).toBe(32);
+    expect(synth.resampled16kHzLength).toBe(682);
+    expect(synth.uncensoredGemma4LayerNorm).toBeGreaterThan(0);
+
+    // Gemini Web App <-> agy CLI MCP Tunnel
+    const tunnelRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/api/tunnel/agy-mcp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          tool: "carbon_gpui_antigravity_studio",
+          skill: "voice-live",
+          syncMemoryFact: "Single-owner domain consolidation verified.",
+        }),
+      }),
+    );
+    expect(tunnelRes.status).toBe(200);
+    const tunnel = (await tunnelRes.json()) as {
+      ok: boolean;
+      invokedTool: string;
+      cookieAuth: { hasValid1Psid: boolean };
+    };
+    expect(tunnel.ok).toBe(true);
+    expect(tunnel.invokedTool).toBe("carbon_gpui_antigravity_studio");
+    expect(tunnel.cookieAuth.hasValid1Psid).toBe(true);
+
+    // yolo-re-google Feature Matrix & Migration Plan
+    const matrixRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/api/re/google-matrix"),
+    );
+    expect(matrixRes.status).toBe(200);
+    const matrix = (await matrixRes.json()) as {
+      featureMatrix: unknown[];
+      migrationPhases: unknown[];
+    };
+    expect(matrix.featureMatrix.length).toBe(10);
+    expect(matrix.migrationPhases.length).toBe(5);
+
+    // Real Hardware & Software Verification Probe
+    const hwRes = await handleWebRequest(
+      new Request("http://127.0.0.1:4040/api/hardware/verify"),
+    );
+    expect(hwRes.status).toBe(200);
+    const hw = (await hwRes.json()) as {
+      gpu: { detected: boolean; name: string; vramTotalMb: number };
+      audioDevices: {
+        microphoneDetected: boolean;
+        headphonesDetected: boolean;
+      };
+      antigravityCli: { exists: boolean; sizeBytes: number };
+      chromeExtensionOwner: {
+        manifestExists: boolean;
+        builtDistExists: boolean;
+      };
+      yoloReGoogleOwner: { migrationReportExists: boolean };
+      cookieVault: { hasValid1Psid: boolean; cookieCount: number };
+    };
+    expect(hw.gpu.detected).toBe(true);
+    expect(hw.gpu.name).toContain("RTX 4070");
+    expect(hw.gpu.vramTotalMb).toBeGreaterThanOrEqual(12000);
+    expect(hw.audioDevices.microphoneDetected).toBe(true);
+    expect(hw.audioDevices.headphonesDetected).toBe(true);
+    expect(hw.antigravityCli.exists).toBe(true);
+    expect(hw.chromeExtensionOwner.manifestExists).toBe(true);
+    expect(hw.chromeExtensionOwner.builtDistExists).toBe(true);
+    expect(hw.yoloReGoogleOwner.migrationReportExists).toBe(true);
+    expect(hw.cookieVault.hasValid1Psid).toBe(true);
+  });
 });

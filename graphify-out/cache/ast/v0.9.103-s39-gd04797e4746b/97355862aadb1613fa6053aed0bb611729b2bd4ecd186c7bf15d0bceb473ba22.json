@@ -1,1 +1,88 @@
-{"nodes": [{"id": "$graphify-root$_agents_md", "label": "AGENTS.md", "file_type": "document", "node_kind": "page", "source_file": "AGENTS.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_agents_md_google_deepmind_carbon_yolo_rs_carbon", "label": "AGENTS.md \u2014 Google DeepMind Carbon (`yolo-rs/carbon`)", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_1_golden_rules", "label": "1. Golden Rules", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L5"}], "edges": [{"source": "$graphify-root$_agents_md", "target": "$graphify-root$_agents_agents_md_google_deepmind_carbon_yolo_rs_carbon", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_google_deepmind_carbon_yolo_rs_carbon", "target": "$graphify-root$_agents_1_golden_rules", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L5", "weight": 1.0}], "raw_calls": [{"caller_nid": "$graphify-root$_agents_1_golden_rules", "callee": "bun", "is_member_call": false, "language": "markdown", "context": "bun", "source_file": "AGENTS.md", "source_location": "L7"}, {"caller_nid": "$graphify-root$_agents_1_golden_rules", "callee": "YOLO_WEB_ROOT", "is_member_call": false, "language": "markdown", "context": "YOLO_WEB_ROOT", "source_file": "AGENTS.md", "source_location": "L8"}, {"caller_nid": "$graphify-root$_agents_1_golden_rules", "callee": "BUN_SRC_ROOT", "is_member_call": false, "language": "markdown", "context": "BUN_SRC_ROOT", "source_file": "AGENTS.md", "source_location": "L8"}, {"caller_nid": "$graphify-root$_agents_1_golden_rules", "callee": "CARBON_FFI_PATH", "is_member_call": false, "language": "markdown", "context": "CARBON_FFI_PATH", "source_file": "AGENTS.md", "source_location": "L8"}], "input_tokens": 0, "output_tokens": 0}
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_agents_md",
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "AGENTS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_agents_agents_md_google_deepmind_carbon_yolo_rs_carbon",
+      "label": "AGENTS.md \u2014 Google DeepMind Carbon (`yolo-rs/carbon`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "AGENTS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_agents_1_golden_rules",
+      "label": "1. Golden Rules",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "AGENTS.md",
+      "source_location": "L5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_agents_md",
+      "target": "$graphify-root$_agents_agents_md_google_deepmind_carbon_yolo_rs_carbon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_agents_agents_md_google_deepmind_carbon_yolo_rs_carbon",
+      "target": "$graphify-root$_agents_1_golden_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L5",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_agents_1_golden_rules",
+      "callee": "bun",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bun",
+      "source_file": "AGENTS.md",
+      "source_location": "L7"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_1_golden_rules",
+      "callee": "YOLO_WEB_ROOT",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "YOLO_WEB_ROOT",
+      "source_file": "AGENTS.md",
+      "source_location": "L8"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_1_golden_rules",
+      "callee": "BUN_SRC_ROOT",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "BUN_SRC_ROOT",
+      "source_file": "AGENTS.md",
+      "source_location": "L8"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_1_golden_rules",
+      "callee": "CARBON_FFI_PATH",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "CARBON_FFI_PATH",
+      "source_file": "AGENTS.md",
+      "source_location": "L8"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

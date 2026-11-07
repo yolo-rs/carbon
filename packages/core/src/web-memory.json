@@ -1,5 +1,5 @@
 {
-  "lastSyncedAt": "2026-11-07T05:19:00.000Z",
+  "lastSyncedAt": "2026-11-07T07:20:04.146Z",
   "sourceUrl": "https://gemini.google.com/saved-info",
   "savedInfoFacts": [
     "Primary Beta Hub: Google DeepMind Paris (europe-west9) scaling globally to europe-west4, us-central1, and asia-northeast1.",
@@ -10,7 +10,8 @@
     "Native GPUI Desktop & IDE: Antigravity IDE 2.0 and Gemini Desktop replace Electron with a pure Rust GPUI 0.8 + Taffy 0.15 + WGPU/Blade fork of Zed (yolo-ui/packages/yolo-gpui).",
     "Keyless Google AI Ultra Subscription: Zero API key required. Synchronizes active Chrome profile (yohanpierre15@gmail.com -> aphrody-yolo) into AES-256-GCM vault (SQLite WAL, Postgres, Redis) with RFC 6238 TOTP, QR SVG, and FIDO2 Passkeys, fusing Gemini Web App and agy CLI into one session and token usage budget.",
     "Local Uncensored Creative Suite: Local uncensored Image (Flux/SDXL/Imagen WebGPU), Video (Veo/SVD), 3D (Gaussian Splatting GPUI), and Music synthesis integrated with Craft Creative Suite, OpenCode, and yolo-ai TUI/CLI.",
-    "Universal Polyglot Pipeline: Rust 2024 + Upstream Bun v1.4.4+ + Python uv + Go 1.27 with dynamic multi-OS FFI resolution and automated scripts/pipeline.ts + GitHub Actions publishing to npm, crates.io, PyPI, and GitHub Releases."
+    "Universal Polyglot Pipeline: Rust 2024 + Upstream Bun v1.4.4+ + Python uv + Go 1.27 with dynamic multi-OS FFI resolution and automated scripts/pipeline.ts + GitHub Actions publishing to npm, crates.io, PyPI, and GitHub Releases.",
+    "Single-owner domain consolidation verified."
   ],
   "activeGems": [
     {

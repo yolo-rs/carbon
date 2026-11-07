@@ -300,9 +300,122 @@ pub unsafe extern "C" fn carbon_free_string(ptr: *mut c_char) {
     }
 }
 
+/// Computes Root-Mean-Square (RMS) normalized amplitude in [0.0, 1.0] from signed 16-bit PCM audio samples.
+#[unsafe(no_mangle)]
+pub unsafe extern "C" fn carbon_pcm16_rms(ptr: *const i16, len: c_uint) -> c_float {
+    if ptr.is_null() || len == 0 {
+        return 0.0;
+    }
+    let n = len as usize;
+    let slice = unsafe { std::slice::from_raw_parts(ptr, n) };
+    let mut sum_sq = 0.0f64;
+    for &sample in slice {
+        let v = (sample as f64) / 32768.0;
+        sum_sq += v * v;
+    }
+    ((sum_sq / (n as f64)).sqrt() as f32).clamp(0.0, 1.0)
+}
+
+/// Computes a 32-band Hann-windowed DFT magnitude spectrum in [0.0, 1.0] for the 120 FPS Gemini Voice Orb
+/// and OpenPets/Mochi audio-reactive lip-sync.
+#[unsafe(no_mangle)]
+pub unsafe extern "C" fn carbon_spectrum_32_hann(
+    samples_ptr: *const c_float,
+    len: c_uint,
+    out_bands_ptr: *mut c_float,
+) -> c_uint {
+    if samples_ptr.is_null() || out_bands_ptr.is_null() || len == 0 {
+        return 0;
+    }
+    let n = (len as usize).min(1024);
+    let samples = unsafe { std::slice::from_raw_parts(samples_ptr, n) };
+    let out_bands = unsafe { std::slice::from_raw_parts_mut(out_bands_ptr, 32) };
+    let two_pi = 2.0f32 * std::f32::consts::PI;
+    let denom = ((n.saturating_sub(1)).max(1)) as f32;
+
+    for (b, slot) in out_bands.iter_mut().enumerate() {
+        let k = (b + 1) as f32;
+        let mut re = 0.0f32;
+        let mut im = 0.0f32;
+        for (i, &x) in samples.iter().enumerate() {
+            let hann = 0.5f32 * (1.0f32 - (two_pi * (i as f32) / denom).cos());
+            let w = x * hann;
+            let angle = two_pi * k * (i as f32) / (n as f32);
+            re += w * angle.cos();
+            im -= w * angle.sin();
+        }
+        let mag = ((re * re + im * im).sqrt() / (n as f32)) * 4.0f32;
+        *slot = mag.clamp(0.0, 1.0);
+    }
+    32
+}
+
+/// Zero-allocation linear audio resampler (e.g. 48000 Hz <-> 24000 Hz <-> 16000 Hz).
+#[unsafe(no_mangle)]
+pub unsafe extern "C" fn carbon_resample_linear_f32(
+    src_ptr: *const c_float,
+    src_len: c_uint,
+    dst_ptr: *mut c_float,
+    dst_len: c_uint,
+) -> c_uint {
+    if src_ptr.is_null() || dst_ptr.is_null() || src_len == 0 || dst_len == 0 {
+        return 0;
+    }
+    let s_len = src_len as usize;
+    let d_len = dst_len as usize;
+    let src = unsafe { std::slice::from_raw_parts(src_ptr, s_len) };
+    let dst = unsafe { std::slice::from_raw_parts_mut(dst_ptr, d_len) };
+
+    if d_len == 1 || s_len == 1 {
+        for slot in dst.iter_mut() {
+            *slot = src[0];
+        }
+        return dst_len;
+    }
+
+    let scale = ((s_len - 1) as f32) / ((d_len - 1) as f32);
+    for (i, slot) in dst.iter_mut().enumerate() {
+        let pos = (i as f32) * scale;
+        let idx = (pos.floor() as usize).min(s_len - 1);
+        let frac = pos - (idx as f32);
+        let next = (idx + 1).min(s_len - 1);
+        *slot = src[idx] * (1.0 - frac) + src[next] * frac;
+    }
+    dst_len
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn test_audio_dsp_kernels() {
+        let pcm = [16384i16, -16384, 16384, -16384];
+        let rms = unsafe { carbon_pcm16_rms(pcm.as_ptr(), pcm.len() as u32) };
+        assert!((rms - 0.5).abs() < 1e-3);
+
+        let mut samples = vec![0.0f32; 256];
+        for (i, s) in samples.iter_mut().enumerate() {
+            *s = (2.0 * std::f32::consts::PI * 4.0 * (i as f32) / 256.0).sin();
+        }
+        let mut bands = [0.0f32; 32];
+        let count = unsafe {
+            carbon_spectrum_32_hann(samples.as_ptr(), samples.len() as u32, bands.as_mut_ptr())
+        };
+        assert_eq!(count, 32);
+        assert!(bands[3] > 0.1);
+
+        let mut resampled = [0.0f32; 128];
+        let out_n = unsafe {
+            carbon_resample_linear_f32(
+                samples.as_ptr(),
+                samples.len() as u32,
+                resampled.as_mut_ptr(),
+                resampled.len() as u32,
+            )
+        };
+        assert_eq!(out_n, 128);
+    }
 
     #[test]
     fn test_dot_and_cosine() {

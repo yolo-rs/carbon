@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "crates/carbon_ffi/src/lib.rs": {
-    "mtime": 1794017428.274044,
-    "seen": 1794018370.1166563,
-    "ast_hash": "d02ca935e7ccab39c62ee709506366f5",
+    "mtime": 1794035780.2530158,
+    "seen": 1794036095.806544,
+    "ast_hash": "63a952b39c5b1683ec4a402dd1418dad",
     "semantic_hash": ""
   },
   "infra/gcp/cloudbuild.yaml": {
@@ -66,9 +66,9 @@
     "semantic_hash": ""
   },
   "packages/core/src/ffi.ts": {
-    "mtime": 1794022828.578209,
-    "seen": 1794022939.5862377,
-    "ast_hash": "c172f3f4ba12b4b6a44dec94b9d95b56",
+    "mtime": 1794035747.3482962,
+    "seen": 1794036095.8074832,
+    "ast_hash": "f8ba93f279b8f9e02633f1395a5c7501",
     "semantic_hash": ""
   },
   "packages/core/src/index.ts": {
@@ -144,9 +144,9 @@
     "semantic_hash": ""
   },
   "packages/web/src/index.ts": {
-    "mtime": 1794025328.8445892,
-    "seen": 1794025387.4400983,
-    "ast_hash": "739c3c1f1d0960aed91765bb82b3eaf1",
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.8085506,
+    "ast_hash": "f6c6843feccfd222236c88c3f21c623c",
     "semantic_hash": ""
   },
   "packages/webgpu-gemma/package.json": {
@@ -252,9 +252,9 @@
     "semantic_hash": ""
   },
   "tests/carbon.test.ts": {
-    "mtime": 1794025361.7540953,
-    "seen": 1794025387.44159,
-    "ast_hash": "a48bffed377cf56856e9f0b7dc81d9ba",
+    "mtime": 1794035994.7427795,
+    "seen": 1794036095.8099258,
+    "ast_hash": "9764820a1e415c3405b7d54376c14155",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -366,9 +366,9 @@
     "semantic_hash": ""
   },
   "packages/core/src/web-memory.json": {
-    "mtime": 1794025384.3715353,
-    "seen": 1794025387.4391222,
-    "ast_hash": "b00f58a5f832715b6a1c46b07f919ef1",
+    "mtime": 1794036091.2460003,
+    "seen": 1794036095.807612,
+    "ast_hash": "bc53bd83283e9b73396b6ee8472b5ebc",
     "semantic_hash": ""
   },
   "packages/design-crawler/package.json": {
@@ -396,9 +396,9 @@
     "semantic_hash": ""
   },
   "packages/gemini-web-client/src/index.ts": {
-    "mtime": 1794025384.0312138,
-    "seen": 1794025387.4395738,
-    "ast_hash": "f3d225548d034147ef99989829d40cff",
+    "mtime": 1794035952.0949328,
+    "seen": 1794036095.8080118,
+    "ast_hash": "ba2fbd5b4706d87224ecaaad3936b6f9",
     "semantic_hash": ""
   },
   "python/carbon_gemini_web/carbon_gemini_web/__init__.py": {
@@ -489,6 +489,2370 @@
     "mtime": 1794025384.0332596,
     "seen": 1794025387.4417443,
     "ast_hash": "9bd53a3307c74bdeda92ce0d383e2cf9",
+    "semantic_hash": ""
+  },
+  "packages/gemini-web-client/src/super-runtime.ts": {
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.8080132,
+    "ast_hash": "c17268b00ccef7da05cb74523bdafd1f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/manifest.json": {
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.8084815,
+    "ast_hash": "8def98411df709ad56b887483a5db6e6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/plugin-delivery-preload.cjs": {
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.808483,
+    "ast_hash": "3ae38d158eae98582eff9e56f7de7c6d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/README.md": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8107502,
+    "ast_hash": "00f1e5ca93088e2241a6ea384c125079",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/NotoColorEmoji.LICENSE.txt": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8107526,
+    "ast_hash": "5cafa306a56720a6092c24325fe2bb1c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/voice-capture.html": {
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.8107536,
+    "ast_hash": "e026fc4f0997beebd4c495dc22458530",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/voice-media-player.html": {
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.8107545,
+    "ast_hash": "02a4fa5cac99c5d133333ac55a41b0dc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/voice-realtime.html": {
+    "mtime": 1794036088.1429696,
+    "seen": 1794036095.8107553,
+    "ast_hash": "c10d191e68420b66685e9e9810f5f1de",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113267,
+    "ast_hash": "1ccdf6ec9cfa641639b0e8c9f21f9092",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811328,
+    "ast_hash": "1b9e91faa16910aabf9a930aaa305fc5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113291,
+    "ast_hash": "ad9aed73aac95b55c2560c94a5c9b6ad",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81133,
+    "ast_hash": "adbc2ad5ff9cfae14e56814a66828a2e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113308,
+    "ast_hash": "aed07bb10dfb3da645c381e76935a9cc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113315,
+    "ast_hash": "bb69ba8b893453a2b4c3f1f0dfb0eda3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_intro_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113325,
+    "ast_hash": "1a08d7eca515a5dc8c0c723cf31cb8d0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113332,
+    "ast_hash": "4f7e4d5163a3e5646ca115e7cb2230b6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811334,
+    "ast_hash": "0aa1810355af731968144ee180a2b23c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113348,
+    "ast_hash": "c0e20d47825dd220ea551e0a4ad27bdd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113356,
+    "ast_hash": "56f628a96cfd265b9f8abd53d4e6cb39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113365,
+    "ast_hash": "ddc4107d7a3a920bbc0f43d88133ec3a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113372,
+    "ast_hash": "6964f7a968ef988174d68ad08de7f2f0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811338,
+    "ast_hash": "80231cddb15a8000436a14bad89920e7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113387,
+    "ast_hash": "af287c4d1e357b042b0ede8f68aa7e55",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113396,
+    "ast_hash": "514cc921ec94a655d98981d53bffb4da",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113403,
+    "ast_hash": "56766edb7158ac26dc57d4bcdec04bb2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_11.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811341,
+    "ast_hash": "ab23f80520cdccd2daeed7c5148ba280",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_12.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113418,
+    "ast_hash": "fb4dd249d21f0e7c54668041194f9e1c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_13.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113425,
+    "ast_hash": "082996e054bcd83652f8a48a5f83c7f6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_14.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113434,
+    "ast_hash": "06920691fe67bf39d47116b81dc4908f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_15.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113441,
+    "ast_hash": "e1ce50169bd21c96c8184ab311552d3b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_16.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113449,
+    "ast_hash": "48252dbee335f18b3c7f2e52090092c5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_17.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113458,
+    "ast_hash": "2d743512b378b673c80d40375914c685",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_loop_18.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113468,
+    "ast_hash": "75a0143e7184e7eda93b2d22124d989f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_outro_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113475,
+    "ast_hash": "8adbc7b308ce961b348482c7f4e6f276",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_outro_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113482,
+    "ast_hash": "c88f09743deb5c45488e10f6c2030cb7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_outro_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811349,
+    "ast_hash": "16a95ed8801f26a2a879a6de24d3466b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_outro_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113499,
+    "ast_hash": "d1df8c09450ecbf418fa61707938ea9e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/agent/agent_outro_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113506,
+    "ast_hash": "1ccdf6ec9cfa641639b0e8c9f21f9092",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113515,
+    "ast_hash": "9fd93d37515f5944d0b3fc008c1e2743",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113523,
+    "ast_hash": "ed5a145cfd68e73d3071d49c4a475e1b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113532,
+    "ast_hash": "b9006a68ec4c94b90e76f32def05a607",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113542,
+    "ast_hash": "a513e7b2ec8b5d64f79aac78ef6a0e76",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113549,
+    "ast_hash": "7750715df658b13ac9f905d650c9503e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113558,
+    "ast_hash": "0c926d88996284ddc01b52d8c8212a5b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/blink/blink_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113563,
+    "ast_hash": "9fd93d37515f5944d0b3fc008c1e2743",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113575,
+    "ast_hash": "16785234f22586ae5ddce41d7f4c75b6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113582,
+    "ast_hash": "0143f19cda0b4349db7a3f0ab0ea6aab",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113592,
+    "ast_hash": "be6a69a56b7ea538084ec6846afd2ce3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81136,
+    "ast_hash": "3c2705c90e649ee210f8f165e28344a9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113608,
+    "ast_hash": "cc4222e484bf272e7683cbcb803f5c79",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113616,
+    "ast_hash": "fdd3a543529d14d82d5dada60a664113",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/bounce/bounce_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113623,
+    "ast_hash": "d3fc5e839ae41a9fe25e6fb7b1a276d6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0001.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811363,
+    "ast_hash": "7ff3789931a4ff13bd77ca8778c357b5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0002.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811364,
+    "ast_hash": "d574e1ca97b7ad9107051c607c3f3faa",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0003.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113647,
+    "ast_hash": "2d9ea7dac0742a74eeef20701cf25f5c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0004.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113654,
+    "ast_hash": "73c53e633aa4ace1969ea02c7ba88a31",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0005.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113663,
+    "ast_hash": "7d96a71050332a8fe023c0e9bc8b104e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0006.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113668,
+    "ast_hash": "93c995483b75ec979b925952ae51fd14",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0007.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113678,
+    "ast_hash": "3e88d058a2e54d34d5714373b644df8f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0008.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113687,
+    "ast_hash": "c95b8dc8d58cfcbcc9da887c6cb2837b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0009.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113694,
+    "ast_hash": "1e9c03a76051a084676df1b2d243c6d2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0010.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113701,
+    "ast_hash": "7d31e30f8a6a96430297caf3c775271b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0011.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811371,
+    "ast_hash": "8c4cdf97f9a5c663d37bff900704ffbb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0012.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113718,
+    "ast_hash": "31b5a66fc593384ca4765264741cb776",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0013.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113725,
+    "ast_hash": "786695c2bb3aa211dcb24ced3f229287",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0014.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113732,
+    "ast_hash": "ad64040834dffe7d69c532543f763904",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0015.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113742,
+    "ast_hash": "ab366a702fd7c963c9035cc88980810e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0016.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811375,
+    "ast_hash": "a15e25d12c30d3a8c3400bea2f876a3c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0017.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113756,
+    "ast_hash": "7d96a71050332a8fe023c0e9bc8b104e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0018.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113763,
+    "ast_hash": "73c53e633aa4ace1969ea02c7ba88a31",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0019.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811377,
+    "ast_hash": "2d9ea7dac0742a74eeef20701cf25f5c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0020.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811378,
+    "ast_hash": "d574e1ca97b7ad9107051c607c3f3faa",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/coffee/mochi_coffee_0021.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811379,
+    "ast_hash": "7ff3789931a4ff13bd77ca8778c357b5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113797,
+    "ast_hash": "a4be22389de4e1a333779f038f82601d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113804,
+    "ast_hash": "a0a627e63cafe93ec66021a0b1ac548b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113813,
+    "ast_hash": "91b2ba76a1c640c753199c74e4d3e592",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811382,
+    "ast_hash": "f8a6cfa066543c344b61c14c7bacecc5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113828,
+    "ast_hash": "2fc431e6826ac5fa59cf6123f38df9c2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113835,
+    "ast_hash": "7afd66e4ef4206e471ebda19fac23697",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113847,
+    "ast_hash": "8f19135777945b8b4a78dfa0530ea354",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113854,
+    "ast_hash": "fb22ee443c59a5e7b38bced09f9707e0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811386,
+    "ast_hash": "c4350d4198699c57a280e69029cb09da",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113868,
+    "ast_hash": "bcc8f8690af8f6ba70da6c83851b7928",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_11.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113875,
+    "ast_hash": "5d8f14bc41f54fd868ad3cef47e22c05",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_12.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113885,
+    "ast_hash": "8a15f687baa376a89aa9eabef0a9afe8",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_13.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113892,
+    "ast_hash": "012741d3397b6a148d98dcde253c9fda",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_14.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81139,
+    "ast_hash": "756e3d5a43aec931e3a0dfedb7af1565",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_15.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113906,
+    "ast_hash": "a50c3e88d5baa1859b7e5226fc92d6a5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/computer/computer_16.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113916,
+    "ast_hash": "e0c80b1d2c55558c488a27273ca361b6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113937,
+    "ast_hash": "2f14253138eb672bacfecf53d04bbc70",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811395,
+    "ast_hash": "ba60b93af285ecce4ea8b23c6de1c3a4",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113956,
+    "ast_hash": "664aa91ec725a62f9fe1c1effc1c8483",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113964,
+    "ast_hash": "56e8f90031de21cfb7c90a32c2d7e1e6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811397,
+    "ast_hash": "a64769acad09aebd80ee1f7eca876a1d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113976,
+    "ast_hash": "256c61e57d5873b76f296e01efda5fc3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113985,
+    "ast_hash": "49c97c2b51805bd48cddbe9437513e79",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/dance/dance_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8113992,
+    "ast_hash": "6bf879bb7c5241abd926abeb16944094",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_left_medium.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114,
+    "ast_hash": "21e8750864f8c40b4e77cc72d0dc9469",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_left_soft.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114007,
+    "ast_hash": "1a5bb8eaf6b155dea944393468c76651",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_neutral.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114014,
+    "ast_hash": "0fcfbf439ea899b51a8b72c7472f305f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_right_medium.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114023,
+    "ast_hash": "7a289a053b2b65659d7ce410be83feff",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_right_soft.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811403,
+    "ast_hash": "d3f6ae3acec6379cdce36060088cf0b7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_settle_left.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114038,
+    "ast_hash": "4a2177535cc6f687e87db3c3fd3c2ce1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_settle_neutral.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114045,
+    "ast_hash": "41cbcd15d3549473942a052daa1ea2ef",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drag/drag_settle_right.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114054,
+    "ast_hash": "91f2909d8fa22af749e6ff95fba452c1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drop/drop_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114061,
+    "ast_hash": "6b846e31c47a547e65108af747f036bd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drop/drop_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114069,
+    "ast_hash": "bcef58f645d0a750ea47e54e7f994060",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drop/drop_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114076,
+    "ast_hash": "dcfc26025990f21ebbcd87753de57a52",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drop/drop_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114083,
+    "ast_hash": "79b8438d817aef6e1054ad633c5d90a0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drop/drop_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114092,
+    "ast_hash": "d0db8d6ea3e9a9c99996c1557320fb2b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/drop/drop_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81141,
+    "ast_hash": "b2688ce65e8687a6977e1d9da4b8006a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0001.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114107,
+    "ast_hash": "105330787ee712d26fd53cc6d75c753c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0002.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114114,
+    "ast_hash": "e99bd44562115647ede39b477393f009",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0003.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114123,
+    "ast_hash": "b63f360eb07fe56d2196368b2a87ebf2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0004.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811413,
+    "ast_hash": "d4cd15e3ee973f6b6decac2dfd659703",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0005.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114138,
+    "ast_hash": "56e3a08802ffb70c61f6b2d4cda95ccf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0006.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114145,
+    "ast_hash": "c6708799e58578b5fe7b803ddd1100ab",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0007.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114152,
+    "ast_hash": "213fb36add1b0439cdeb878234967079",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0008.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114185,
+    "ast_hash": "916b7f9b106cb879a3304e7d9eb6d03c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0009.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114195,
+    "ast_hash": "39d65bc7ad1d364942391c93b0269db8",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0010.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114202,
+    "ast_hash": "39a8b45e45dad02d36cd61b2d5312735",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0011.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811421,
+    "ast_hash": "e681ec5834d22aa162fde161ec94c393",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0012.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114216,
+    "ast_hash": "d9907468d24bf2233c9ed0a58f30ebe6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0013.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114223,
+    "ast_hash": "25236f77d1c5277094284a0f6fdd0741",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0014.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811423,
+    "ast_hash": "20b38bcc44c810a47b861011fec4ce86",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0015.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811424,
+    "ast_hash": "41b26140ec26b9a71d40e6e2d4291e4f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/eat/mochi_eat_0016.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114245,
+    "ast_hash": "261acf76fc6551d368bf67daff3fae37",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0001.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114252,
+    "ast_hash": "7c31dec4d84f5852c18bb5bc890d3367",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0002.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114262,
+    "ast_hash": "80176410e87781cfd2eaab380a78122c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0003.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114269,
+    "ast_hash": "8db8003596a24dfcee59e49da7868058",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0004.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114276,
+    "ast_hash": "36e1631d4e830de76fba0b7e4772cc09",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0005.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114283,
+    "ast_hash": "973ee9e223a6fed90778d3525d644ccb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0006.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811429,
+    "ast_hash": "358abe613cbddeed296e06565cb9670f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0007.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81143,
+    "ast_hash": "1b89a74e268e5a93f24ae4b6edaf65d5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0008.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114307,
+    "ast_hash": "87aee2c4910226e05f25ae4ad2ea82eb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0009.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114314,
+    "ast_hash": "abae49b36703601098f72e38accd9b8a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0010.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114321,
+    "ast_hash": "023365cd43c66695c95c899c70d4ebc5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0011.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811433,
+    "ast_hash": "a738fbe738f6599b7029f0dbd12f51bc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0012.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114338,
+    "ast_hash": "be4f875a925b1daeb08e13e0ce46894a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_end_0013.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114345,
+    "ast_hash": "8ab08104bc8ac6ff3884829f898acc7d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0001.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114352,
+    "ast_hash": "8ab08104bc8ac6ff3884829f898acc7d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0002.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811436,
+    "ast_hash": "be4f875a925b1daeb08e13e0ce46894a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0003.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811437,
+    "ast_hash": "a738fbe738f6599b7029f0dbd12f51bc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0004.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114376,
+    "ast_hash": "023365cd43c66695c95c899c70d4ebc5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0005.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114383,
+    "ast_hash": "abae49b36703601098f72e38accd9b8a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0006.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114393,
+    "ast_hash": "87aee2c4910226e05f25ae4ad2ea82eb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0007.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114402,
+    "ast_hash": "1b89a74e268e5a93f24ae4b6edaf65d5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0008.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811441,
+    "ast_hash": "358abe613cbddeed296e06565cb9670f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0009.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114417,
+    "ast_hash": "973ee9e223a6fed90778d3525d644ccb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0010.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114421,
+    "ast_hash": "36e1631d4e830de76fba0b7e4772cc09",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0011.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811443,
+    "ast_hash": "8db8003596a24dfcee59e49da7868058",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0012.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114438,
+    "ast_hash": "80176410e87781cfd2eaab380a78122c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0013.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114445,
+    "ast_hash": "7c31dec4d84f5852c18bb5bc890d3367",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0014.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114452,
+    "ast_hash": "74104390d2088f136659bb2346ba7c28",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0015.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811446,
+    "ast_hash": "ed9d0ebc7ef0ebbf162c37b837183208",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_intro_0016.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114467,
+    "ast_hash": "7360be710253cfcc9b8f492d994f6e92",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0001.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114476,
+    "ast_hash": "d86e10e363bbecb569bd919d422a1252",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0002.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114483,
+    "ast_hash": "d86e10e363bbecb569bd919d422a1252",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0003.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811449,
+    "ast_hash": "d86e10e363bbecb569bd919d422a1252",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0004.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114498,
+    "ast_hash": "d86e10e363bbecb569bd919d422a1252",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0005.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114507,
+    "ast_hash": "d86e10e363bbecb569bd919d422a1252",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0006.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114514,
+    "ast_hash": "d86e10e363bbecb569bd919d422a1252",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0007.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114522,
+    "ast_hash": "3523bba03bc3083ef9db3a2474134c39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0008.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114529,
+    "ast_hash": "3523bba03bc3083ef9db3a2474134c39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0009.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114536,
+    "ast_hash": "3523bba03bc3083ef9db3a2474134c39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0010.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114545,
+    "ast_hash": "3523bba03bc3083ef9db3a2474134c39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0011.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114555,
+    "ast_hash": "3523bba03bc3083ef9db3a2474134c39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/fedora_mode/fedora_mode_loop_0012.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114562,
+    "ast_hash": "3523bba03bc3083ef9db3a2474134c39",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_loop.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811457,
+    "ast_hash": "e7ebc5ac413983cac28fd17d50713ccf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_start_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114579,
+    "ast_hash": "5553728535f3b658200c8b94bfbb3ffd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_start_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114586,
+    "ast_hash": "ea550cd7e3326c7a26c66cb0a55adcd6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_start_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114593,
+    "ast_hash": "188426e02907fac0c50fcfc3c846fa9f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_start_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81146,
+    "ast_hash": "2880b56e395ece28a1e86f03f262fb4e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_stop_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811461,
+    "ast_hash": "2880b56e395ece28a1e86f03f262fb4e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_stop_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114614,
+    "ast_hash": "188426e02907fac0c50fcfc3c846fa9f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_stop_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114624,
+    "ast_hash": "ea550cd7e3326c7a26c66cb0a55adcd6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus/focus_stop_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811463,
+    "ast_hash": "5553728535f3b658200c8b94bfbb3ffd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_end_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114636,
+    "ast_hash": "3a0f7a53fcda1c64367baf1b6f3c8ae2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_end_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114645,
+    "ast_hash": "a2552cf437c4be30b5cc2b6321982e5d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_end_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114653,
+    "ast_hash": "775fac8ac434e63f8065d73ff4e81b7a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_end_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811466,
+    "ast_hash": "80fe7da571b426da6c0f885d20326fbf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_end_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114667,
+    "ast_hash": "1f046d531149dcc6ebe7401bac6a382b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114674,
+    "ast_hash": "3a0f7a53fcda1c64367baf1b6f3c8ae2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114684,
+    "ast_hash": "1a24862d2364abf74c345e66f8df7092",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811469,
+    "ast_hash": "6f7a8b5ae24085675ffa84e5e08252cf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114698,
+    "ast_hash": "4f80b8fc3966b506815cc25e78f574fd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114705,
+    "ast_hash": "aec61c0b68da2aa8e224789da30aa6b3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114715,
+    "ast_hash": "6f7a8b5ae24085675ffa84e5e08252cf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114722,
+    "ast_hash": "1a24862d2364abf74c345e66f8df7092",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_loop_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811473,
+    "ast_hash": "3a0f7a53fcda1c64367baf1b6f3c8ae2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_start_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114736,
+    "ast_hash": "1f046d531149dcc6ebe7401bac6a382b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_start_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114743,
+    "ast_hash": "80fe7da571b426da6c0f885d20326fbf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_start_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114753,
+    "ast_hash": "775fac8ac434e63f8065d73ff4e81b7a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_start_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811476,
+    "ast_hash": "a2552cf437c4be30b5cc2b6321982e5d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/focus_thinking/focus_thinking_start_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114767,
+    "ast_hash": "3a0f7a53fcda1c64367baf1b6f3c8ae2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114774,
+    "ast_hash": "c0c7042632209bbbdc5ccd70186ee0c3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114784,
+    "ast_hash": "0190f49d408d5b5e5f19e00fcbcb771a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811479,
+    "ast_hash": "b35efbb51e3e475c40d687b1b860f200",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114798,
+    "ast_hash": "5dc1919fd4e56f5bc39da9bfea8f189e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114805,
+    "ast_hash": "e1ec9a65f67a217169e3b5885633a936",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114812,
+    "ast_hash": "5108bc60462ddfb2bda680a43d44e0da",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114822,
+    "ast_hash": "27fe94ec65e576218216c21671a4d6b7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811483,
+    "ast_hash": "b04fb2487c4b92b1252ffd419d977d6f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114836,
+    "ast_hash": "522a7b98ebc9339e39f4e10650d0fda0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114843,
+    "ast_hash": "d872db144ac2bca67721b95e0bc75c23",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_11.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114853,
+    "ast_hash": "99c5f2912a657955d18440d717255b82",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_12.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811486,
+    "ast_hash": "9e418a61a638502d0e6144d2317a7b70",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_13.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114867,
+    "ast_hash": "c402cebb7aaa0d5361c1a2dd08ab7947",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_14.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114874,
+    "ast_hash": "a983d2bdbe799ca2c5a329708dc141cb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_15.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114882,
+    "ast_hash": "3f0c20aabc696c47c44169d447f35815",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/heart/heart_16.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811489,
+    "ast_hash": "3eb932551e75fa952cc006cffd42c192",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/idle/idle_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114898,
+    "ast_hash": "c81dccdd17d4512f8235d048f23a3bc4",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/idle/idle_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114903,
+    "ast_hash": "a400e9c709ce4543a2feb4141bc3e23c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/idle/idle_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114913,
+    "ast_hash": "0575fa07f4414084e74bac343b1fd6ea",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/idle/idle_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114917,
+    "ast_hash": "1636bd6df9ada28e4e86f817f0ee168d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/idle/idle_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114927,
+    "ast_hash": "efdbc5b5bc3a7c929cf6a02189915de2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/idle/idle_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114934,
+    "ast_hash": "24e115cb1a6b6580e6237de5c0766650",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/level_up_default/level_up_default.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811494,
+    "ast_hash": "dd861edbd1325e94d0961972110e264e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114948,
+    "ast_hash": "7448005a7c33e64be320d1df76088f7d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114958,
+    "ast_hash": "0ef5132310056e0972aa2ed02b8b6481",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114965,
+    "ast_hash": "becaf2810945ca9657c7ea2e3681dc25",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114972,
+    "ast_hash": "7f6fccf9b5679eda0f3bd2a4702cdefc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811498,
+    "ast_hash": "37bc24d53cd3e75b403cba5af64c56ca",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114986,
+    "ast_hash": "09447e567fd3b11248d4e122906eea46",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8114996,
+    "ast_hash": "2ea31f41b33be5a93bb6d19215860f6c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115,
+    "ast_hash": "72aaee54ed25b0c6ea76124e54cf5e6a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115008,
+    "ast_hash": "79bf13aa109b78be266c2cefe29d6a5a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/look/look_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115017,
+    "ast_hash": "f5c1d9e064932bf0ee48e69fb187cb75",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/master/mochi_default.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115022,
+    "ast_hash": "8724f7198f4bf26da4c582e0fa085db5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/mochi_exe/mochi_exe.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115032,
+    "ast_hash": "8eda8c996e361f3a2ad23815d7de8ffc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pickup/pickup_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811504,
+    "ast_hash": "7d60039aab31684dfdf0c66b95edb698",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pickup/pickup_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115046,
+    "ast_hash": "cb790af7ab4750fdc2ce2927cbb93d1a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pickup/pickup_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115053,
+    "ast_hash": "04301ca5ebc51d52224c1c4f13c744de",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pickup/pickup_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115063,
+    "ast_hash": "a4b58340cfa5dd4263ec89ff64cecc87",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pickup/pickup_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811507,
+    "ast_hash": "635863ac2e21b3a01332540aecee8bb5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pickup/pickup_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811508,
+    "ast_hash": "84a7ed880d5d04acb4eb5cf19bf3dde7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0001.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115087,
+    "ast_hash": "c4e34c4eac6274f31918ec82794c7732",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0002.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115096,
+    "ast_hash": "26058ec15c77fcce7a7b0681cec4e3a4",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0003.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115103,
+    "ast_hash": "779b811cd00ae6819aeaa115934526e7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0004.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811511,
+    "ast_hash": "5e15e2271d2d988022b5e654af6c5528",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0005.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115118,
+    "ast_hash": "70a33d911716196f40adc88b4b52718e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0006.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115125,
+    "ast_hash": "6dfdd1fcbe76ad3d6c4cf49345fd66f2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0007.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115134,
+    "ast_hash": "a781db8f4fc42550e2bb8eb59ae2de4f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/pocket_grab/mochi_pocket_grab_0008.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115141,
+    "ast_hash": "109ae8d8a2850fe6c08283c4cfa854bd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/reading/reading.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115149,
+    "ast_hash": "8ea9de16f75e50e26d6ba1009dca462d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sad_idle/sad_idle_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115156,
+    "ast_hash": "aeb9bb8b41e3915fb9f68a9bc669bac4",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sad_idle/sad_idle_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115177,
+    "ast_hash": "eb16cf15e3f9c0183b81693e365e1789",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sad_idle/sad_idle_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115184,
+    "ast_hash": "53f35806edcc1d43c26392911e8cefcb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sad_idle/sad_idle_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115191,
+    "ast_hash": "e59d43ee82cd7f5ae438c82730715fad",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sad_idle/sad_idle_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.81152,
+    "ast_hash": "7618c3e1ac8efb77b6ab2ea8f1344465",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sad_idle/sad_idle_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811521,
+    "ast_hash": "ac1822a263e13ea84cae7d33b259bd37",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115218,
+    "ast_hash": "1c3e02a444bdf76bbbb7c80f7531308e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115225,
+    "ast_hash": "0b8283f4aaafafbaa85648345c777f51",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115234,
+    "ast_hash": "a3c04563ba73b51819b0ad658c5f1125",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115242,
+    "ast_hash": "a42433323e5de4da52509dce06af2806",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115249,
+    "ast_hash": "fe9f81f2d04efc9fee1811ea0dc186fc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115253,
+    "ast_hash": "8f09db4d0261c22be44f2f51be641dd5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115263,
+    "ast_hash": "23728882d35610b2a7a09af038603443",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115273,
+    "ast_hash": "d808dfd1f174722c7465935bb1596839",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811528,
+    "ast_hash": "dbbb8c7a2cc40aae0126dcee1706a6fa",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115356,
+    "ast_hash": "e665dcc5c5b09ef4b927e9542b6306f4",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_11.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115363,
+    "ast_hash": "87cc15d55dfc380bf6bacdf66738185f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_12.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115373,
+    "ast_hash": "ccbcb5bd32d6565e64ff409659e7101c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_13.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811538,
+    "ast_hash": "377d9c74115b99c2f49309160ab90884",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_14.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115387,
+    "ast_hash": "eedcb29e364aa588591a2be7e3bca7a0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_15.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115396,
+    "ast_hash": "3294a2e2335f87196e4beaaf0fae423b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_16.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115404,
+    "ast_hash": "fe9f81f2d04efc9fee1811ea0dc186fc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_17.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811545,
+    "ast_hash": "a42433323e5de4da52509dce06af2806",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_18.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115458,
+    "ast_hash": "a3c04563ba73b51819b0ad658c5f1125",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_19.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115466,
+    "ast_hash": "0b8283f4aaafafbaa85648345c777f51",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/searching/searching_20.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115473,
+    "ast_hash": "1c3e02a444bdf76bbbb7c80f7531308e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/side_eye/side_eye.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115482,
+    "ast_hash": "72894d77b83ba5167f86077361f41255",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleep_transition/sleep_transition_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811549,
+    "ast_hash": "d25ed0c87d377aae7667641d5afc213f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleep_transition/sleep_transition_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115497,
+    "ast_hash": "d9d84d2aad8b9ecabd64c35fbd0d0ea7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleep_transition/sleep_transition_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115504,
+    "ast_hash": "d72ba003346d6f6090f76324f3e7c34d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleep_transition/sleep_transition_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115513,
+    "ast_hash": "1b44b7fa506d9b3acf773be362af4edc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleep_transition/sleep_transition_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811552,
+    "ast_hash": "1fae9adcb242c3f7d42ccbeda11a8e6c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleep_transition/sleep_transition_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115528,
+    "ast_hash": "798ff2b0d118b07806e637c54135cbc4",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleeping/sleeping_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115535,
+    "ast_hash": "64087bf7ec8f99f9cfb47e740829a31c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleeping/sleeping_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115542,
+    "ast_hash": "f1d0d205d3f62f8e1639911d9dd70892",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sleeping/sleeping_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115551,
+    "ast_hash": "0eb769af3533535db243b95f36fd16a3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/squish/squish_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115556,
+    "ast_hash": "093037bf171f814a34a9c942c3ae8776",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/squish/squish_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115566,
+    "ast_hash": "d98af90c59c16742d9550dc5496acc6b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/squish/squish_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811557,
+    "ast_hash": "8dc107335eeb9e0e945a78a2e7406a1a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/squish/squish_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115578,
+    "ast_hash": "2a04e09fb6cd19402bafa88567d0c960",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/squish/squish_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115587,
+    "ast_hash": "4b49a8009345a2ffe733b7acc5461e33",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/squish/squish_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115594,
+    "ast_hash": "093037bf171f814a34a9c942c3ae8776",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115602,
+    "ast_hash": "5e6b61d0a1ac1a657d6ded607878ac4b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115609,
+    "ast_hash": "f3e611ecf31583bfde7ad80a1073a3e6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115616,
+    "ast_hash": "6f591b65e44102ed09ae5222261e73b9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115625,
+    "ast_hash": "ab048f72f90289c74568fc7639d355a5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115633,
+    "ast_hash": "7de0b9ff0a8430127326416c05f16506",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115637,
+    "ast_hash": "c39b44990e212629f5f45161da529a33",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115647,
+    "ast_hash": "bee272143f789369826722b588853dfb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115656,
+    "ast_hash": "c49d8ad887c162b84e71781414072bc2",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115664,
+    "ast_hash": "e78ae8170eec53e73fc5d4f5cbe1266e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/sway_idle/sway_idle_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811567,
+    "ast_hash": "dfe81c1e3d9f64bde0f06a1f1bd2dc05",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/table_flip/table_flip.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115678,
+    "ast_hash": "fee53036cb51f437ec040f1798c6e306",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115687,
+    "ast_hash": "86026598ca8ac71d15ada9179ceeabd1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115737,
+    "ast_hash": "6844c9a7a3d8030140ae469bfb1a963f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115745,
+    "ast_hash": "6844c9a7a3d8030140ae469bfb1a963f",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115754,
+    "ast_hash": "86026598ca8ac71d15ada9179ceeabd1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811576,
+    "ast_hash": "0b392f0b39b852d24e3a5d55cdc11e6e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115766,
+    "ast_hash": "b76bace4a831a12a5a4bd14c250f6b6a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115773,
+    "ast_hash": "9dbbccd84e97d51983c21b102e3f1791",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811578,
+    "ast_hash": "1efc51d828fc775be0923f02d8f134b9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811579,
+    "ast_hash": "a629f5651fdfd7ba16903a04d73482cf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_10.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115797,
+    "ast_hash": "b76bace4a831a12a5a4bd14c250f6b6a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_11.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115804,
+    "ast_hash": "0b392f0b39b852d24e3a5d55cdc11e6e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115811,
+    "ast_hash": "6a6a97ae60ec539c3ebce527705a3e00",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115819,
+    "ast_hash": "3ea68e1277922ad322ff1788654419ff",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115828,
+    "ast_hash": "8147e8bcf86c4d356a2f6502529c1e2c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115835,
+    "ast_hash": "7924f825dec49b95127a322953a408eb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115842,
+    "ast_hash": "962c30a4fd915bab1076590a3f1bbae1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811585,
+    "ast_hash": "1efc51d828fc775be0923f02d8f134b9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811586,
+    "ast_hash": "a629f5651fdfd7ba16903a04d73482cf",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115866,
+    "ast_hash": "b76bace4a831a12a5a4bd14c250f6b6a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_intro_09.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115873,
+    "ast_hash": "0b392f0b39b852d24e3a5d55cdc11e6e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811588,
+    "ast_hash": "293245f0c4c5e241e25ba9ff741918f5",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115888,
+    "ast_hash": "1efc51d828fc775be0923f02d8f134b9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115897,
+    "ast_hash": "962c30a4fd915bab1076590a3f1bbae1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115904,
+    "ast_hash": "7924f825dec49b95127a322953a408eb",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115911,
+    "ast_hash": "8147e8bcf86c4d356a2f6502529c1e2c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115919,
+    "ast_hash": "3ea68e1277922ad322ff1788654419ff",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/terminal/terminal_outro_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115928,
+    "ast_hash": "6a6a97ae60ec539c3ebce527705a3e00",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/this_is_fine/this_is_fine.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115935,
+    "ast_hash": "306dbb82b377f0b279de0b44df3a947d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115942,
+    "ast_hash": "3c4767caadc910efb2e69d027840bcc6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811595,
+    "ast_hash": "ddc5b1ffb20ea06c26ce2a65efc98f91",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115957,
+    "ast_hash": "3c4767caadc910efb2e69d027840bcc6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115964,
+    "ast_hash": "85aede92430217c1c9b3ddaaa5998aa7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115973,
+    "ast_hash": "178d65afe5e759e19c8b9eac3eab9884",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8115993,
+    "ast_hash": "85aede92430217c1c9b3ddaaa5998aa7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116002,
+    "ast_hash": "3c4767caadc910efb2e69d027840bcc6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing/typing_loop_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811601,
+    "ast_hash": "ddc5b1ffb20ea06c26ce2a65efc98f91",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_intro/typing_intro_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116016,
+    "ast_hash": "c0a052361c6588df7b7c57e69160e3c8",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_intro/typing_intro_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116024,
+    "ast_hash": "d865738de0cef3bb83e2e6a1600812e7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_intro/typing_intro_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116033,
+    "ast_hash": "e7763d200f2ea8dcca55d2a44331ffad",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_intro/typing_intro_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116043,
+    "ast_hash": "78d2bfabfb4d6936d9da5eae409ac212",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_intro/typing_intro_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811605,
+    "ast_hash": "94e426569e63b44ff4c5e215243d9674",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_outro/typing_outro_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116057,
+    "ast_hash": "868da682633a689c8fd9b0932f82d7fc",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_outro/typing_outro_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116066,
+    "ast_hash": "0d44fe22f79b4397d798f87ef39e9a38",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/typing_outro/typing_outro_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116074,
+    "ast_hash": "1b479db948a5ac748bdfeaa9cfa2e326",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/vs_code/vs_code.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811608,
+    "ast_hash": "43ac13f4188e59988408432fe0cf0ede",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wake/wake_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116088,
+    "ast_hash": "745a2f3261d735862ba9bbfbee06755d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wake/wake_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116095,
+    "ast_hash": "c944cf58a643341df29eabfccf45ecfd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wake/wake_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116105,
+    "ast_hash": "60df15881b88af1366a4bcd6dd790978",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wake/wake_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116112,
+    "ast_hash": "4008ddfa17adb1484c17d36df5bed32e",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wake/wake_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811612,
+    "ast_hash": "a7de9bf36c640b58ea8ac3a32e624eb3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wake/wake_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116126,
+    "ast_hash": "88df33d3066a8cbd914fa6e8d1e2d1f7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116133,
+    "ast_hash": "d06c430c9aef8162c93e362c72286f02",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116143,
+    "ast_hash": "09fc4fae9e8491debde88be03344b3b9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811615,
+    "ast_hash": "2d9f28f01d39aebb4b02250741b8059d",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116157,
+    "ast_hash": "eaccf3bb31cb8218d209e11dd53b99b6",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116164,
+    "ast_hash": "6c2c9c0d22818e260ea81d927b86241a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116171,
+    "ast_hash": "2c1c943ff12d5e83e63c1a0e028e6409",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116179,
+    "ast_hash": "1a732a10182ce241fb7edd884eebc51a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk/walk_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116188,
+    "ast_hash": "53493ba4c0c570cfb1724e78f60fa742",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116195,
+    "ast_hash": "ec2a77153419e6d341d22e2ab355513b",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116202,
+    "ast_hash": "208cb28742af42f6d95a71d5967dd816",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116212,
+    "ast_hash": "689bd07acd3145379cd60139df9ebaa7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811622,
+    "ast_hash": "f6e7f31d856ebd8ceab080b213a3bff1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116226,
+    "ast_hash": "1affe5f18a50a5c28c0e754740fb25b9",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116233,
+    "ast_hash": "7c296513c14754ec343bd2e10d98fdb1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116243,
+    "ast_hash": "e9a3c66fefabe04fbea6d3328b722e0c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/walk_left/walk_left_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116252,
+    "ast_hash": "688fec4d480cfeaa6ecf6f6b073e23da",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_01.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.811626,
+    "ast_hash": "077d14d04191daa35913e789663b0828",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_02.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116267,
+    "ast_hash": "df287fd682fb8ef87e330abf42e0ec1a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_03.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116276,
+    "ast_hash": "df287fd682fb8ef87e330abf42e0ec1a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_04.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116283,
+    "ast_hash": "077d14d04191daa35913e789663b0828",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_05.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116288,
+    "ast_hash": "077d14d04191daa35913e789663b0828",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_06.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116295,
+    "ast_hash": "077d14d04191daa35913e789663b0828",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_07.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116302,
+    "ast_hash": "df287fd682fb8ef87e330abf42e0ec1a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/watch/watch_08.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116312,
+    "ast_hash": "df287fd682fb8ef87e330abf42e0ec1a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/mochi/wave/wave.png": {
+    "mtime": 1793576491.0,
+    "seen": 1794036095.8116322,
+    "ast_hash": "ac1a3cc5bd4d7fa95525f3ae1d4e897c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/app-icon.png": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116329,
+    "ast_hash": "d2df884bc4aaa9a94fa030c51fa3c157",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-outfits/halloween.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116336,
+    "ast_hash": "288cf4f8036aeb26f3d051d37e643dff",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-outfits/holidays.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.811634,
+    "ast_hash": "44a3d1ce092cca80917f3973df4addb3",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-outfits/pajamas.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116353,
+    "ast_hash": "919f134c01d080c483588746525d8eed",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-outfits/summer.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116357,
+    "ast_hash": "dc3ba6247aba5ddb9bdce55ac070267a",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-outfits/weekend.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116364,
+    "ast_hash": "91d9fccad99796869d2956b8ab233bce",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-spritesheet.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116372,
+    "ast_hash": "5fe3fd6574bdb78572931e3efd711ad1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/default-pet-thumbnail.png": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.811638,
+    "ast_hash": "2ba2c3fe744cb7ae044dd6bfc8d13cd0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/claude.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116388,
+    "ast_hash": "d7ca693a5aa3a0aad91c952bb3514788",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/cursor.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116395,
+    "ast_hash": "4da7e36d60df1f6fdaa3531010005c05",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/devin.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116403,
+    "ast_hash": "e644792a4b5e2155b40561407f0780a0",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/opencode.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.811641,
+    "ast_hash": "c44d469acab6503b1148390874458dbd",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/pi.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116422,
+    "ast_hash": "410b13516f558090d1f82fa4b87da29c",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/vscode.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.811643,
+    "ast_hash": "7b0fe57284dbbff16a664b5189686b91",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/integrations/zed.svg": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116434,
+    "ast_hash": "a4cf0376e9d4df4c9e429991b81902df",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/onboarding-logo.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116443,
+    "ast_hash": "30e8ffcb2f6d0c10d4d5f7adacd6f9c7",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/onboarding-pets.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116453,
+    "ast_hash": "5756ca4bc04ec65d16aff1895c30feac",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/openpets-logo.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116457,
+    "ast_hash": "6e5f3877c29a367ea14b50777778ded1",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/openpets.webp": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116467,
+    "ast_hash": "eeb742590635ad5749671dc53095e805",
+    "semantic_hash": ""
+  },
+  "packages/web/assets/openpets/tray-icon.png": {
+    "mtime": 1793572861.0,
+    "seen": 1794036095.8116474,
+    "ast_hash": "e5329d7dd1234bf0f902ac39d98d7410",
     "semantic_hash": ""
   }
 }

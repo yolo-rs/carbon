@@ -16,8 +16,18 @@ import {
   GEMINI_WEB_17_CAPABILITIES,
   GEMINI_WEB_ENDPOINTS,
   getOpenAiModelsList,
+  getPetState,
   getUnifiedGpuiAntigravityStudioStatus,
   getYoloWebUnifiedBridgeStatus,
+  GEMINI_6_HD_VOICES,
+  customizePetState,
+  generatePet3dGlbBinary,
+  generatePetSpritesheetSvg,
+  getCookieVaultStatus,
+  invokeAgyMcpTunnel,
+  probeRealHardwareAndSoftware,
+  synthesizeVoiceboxWithFfiDsp,
+  updateCookieVault,
   type OpenAiChatCompletionRequest,
   syncGeminiWebMemory,
 } from "@carbon/gemini-web-client";
@@ -766,6 +776,118 @@ export async function handleWebRequest(req: Request): Promise<Response> {
     const data = loadCarbonData();
     saveCarbonData(data);
     return Response.json({ success: true, timestamp: data.lastUpdated });
+  }
+
+  if (url.pathname === "/health") {
+    const cookieStatus = getCookieVaultStatus();
+    return Response.json({
+      ok: true,
+      service: "google-deepmind-carbon-gemini-4-argon",
+      version: "4.0.0",
+      nativeKernel: getNativeEngineVersion(),
+      authenticated: cookieStatus.hasValid1Psid,
+      cookieCount: cookieStatus.cookieCount,
+      petCharacter: getPetState().character,
+    });
+  }
+
+  if (url.pathname === "/api/pet/state" && req.method === "GET") {
+    return Response.json({ ok: true, state: getPetState() });
+  }
+
+  if (url.pathname === "/api/pet/customize" && req.method === "POST") {
+    const body = (await req.json()) as Record<string, unknown>;
+    const state = customizePetState(body);
+    return Response.json({ ok: true, state });
+  }
+
+  if (url.pathname === "/assets/openpets/gemini-pet-spritesheet.svg") {
+    return new Response(generatePetSpritesheetSvg(), {
+      headers: { "Content-Type": "image/svg+xml; charset=utf-8" },
+    });
+  }
+
+  if (url.pathname === "/assets/openpets/gemini-pet-3d.glb") {
+    const glb = generatePet3dGlbBinary();
+    const buf = new ArrayBuffer(glb.byteLength);
+    new Uint8Array(buf).set(glb);
+    return new Response(buf, {
+      headers: { "Content-Type": "model/gltf-binary" },
+    });
+  }
+
+  if (url.pathname.startsWith("/assets/")) {
+    const relPath = url.pathname.replace(/^\/assets\//, "");
+    const assetFile = Bun.file(
+      new URL(`../assets/${relPath}`, import.meta.url).pathname.replace(
+        /^\/([A-Za-z]:)/,
+        "$1",
+      ),
+    );
+    if (await assetFile.exists()) {
+      return new Response(assetFile);
+    }
+  }
+
+  if (url.pathname === "/api/voicebox/voices" && req.method === "GET") {
+    return Response.json({ ok: true, voices: GEMINI_6_HD_VOICES });
+  }
+
+  if (url.pathname === "/api/voicebox/synthesize" && req.method === "POST") {
+    const body = (await req.json()) as {
+      text?: string;
+      voice?: any;
+      uncensoredGemma4?: boolean;
+    };
+    return Response.json(
+      synthesizeVoiceboxWithFfiDsp({
+        text: body.text || "Carbon Voicebox Ready",
+        voice: body.voice,
+        uncensoredGemma4: body.uncensoredGemma4,
+      }),
+    );
+  }
+
+  if (url.pathname === "/api/cookies/status" && req.method === "GET") {
+    return Response.json(getCookieVaultStatus());
+  }
+
+  if (url.pathname === "/api/cookies/sync" && req.method === "POST") {
+    const body = (await req.json()) as {
+      psid?: string;
+      psidts?: string;
+      sapisid?: string;
+      cfb2h?: string;
+    };
+    const updated = updateCookieVault(body);
+    return Response.json({ ok: true, ...updated });
+  }
+
+  if (url.pathname === "/api/tunnel/agy-mcp" && req.method === "POST") {
+    const body = (await req.json()) as {
+      tool: string;
+      arguments?: Record<string, unknown>;
+      skill?: string;
+      syncMemoryFact?: string;
+    };
+    return Response.json(invokeAgyMcpTunnel(body));
+  }
+
+  if (url.pathname === "/api/hardware/verify" && req.method === "GET") {
+    return Response.json(probeRealHardwareAndSoftware());
+  }
+
+  if (url.pathname === "/api/re/google-matrix" && req.method === "GET") {
+    const reportFile = Bun.file(
+      "C:/src/yolo-re/var/reports/yolo-re-google-migration-plan.json",
+    );
+    if (await reportFile.exists()) {
+      return Response.json(await reportFile.json());
+    }
+    return Response.json(
+      { ok: false, error: "Migration matrix not generated" },
+      { status: 404 },
+    );
   }
 
   return new Response("Not Found", { status: 404 });

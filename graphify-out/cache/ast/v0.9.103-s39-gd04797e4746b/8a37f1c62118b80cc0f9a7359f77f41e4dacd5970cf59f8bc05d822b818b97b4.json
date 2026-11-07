@@ -1,1 +1,108 @@
-{"nodes": [{"id": "$graphify-root$_agents_rules_gemini_web_memory_md", "label": "gemini-web-memory.md", "file_type": "document", "node_kind": "page", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "label": "Synchronized Gemini Web & Antigravity 2.0 Memory (`gemini-web-memory.md`)", "file_type": "document", "node_kind": "heading", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L1"}], "edges": [{"source": "$graphify-root$_agents_rules_gemini_web_memory_md", "target": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L1", "weight": 1.0}], "raw_calls": [{"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "SQLite", "is_member_call": false, "language": "markdown", "context": "SQLite", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L4"}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "PostgreSQL", "is_member_call": false, "language": "markdown", "context": "PostgreSQL", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L4"}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "Redis", "is_member_call": false, "language": "markdown", "context": "Redis", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L4"}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "agy", "is_member_call": false, "language": "markdown", "context": "agy", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L4"}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "uv", "is_member_call": false, "language": "markdown", "context": "uv", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L6"}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "npm", "is_member_call": false, "language": "markdown", "context": "npm", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L6"}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "io", "is_member_call": false, "language": "markdown", "context": "crates.io", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L6", "qualifiers": ["crates"]}, {"caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md", "callee": "PyPI", "is_member_call": false, "language": "markdown", "context": "PyPI", "source_file": ".agents/rules/gemini-web-memory.md", "source_location": "L6"}], "input_tokens": 0, "output_tokens": 0}
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_agents_rules_gemini_web_memory_md",
+      "label": "gemini-web-memory.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "label": "Synchronized Gemini Web & Antigravity 2.0 Memory (`gemini-web-memory.md`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_agents_rules_gemini_web_memory_md",
+      "target": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "SQLite",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "SQLite",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "PostgreSQL",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PostgreSQL",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "Redis",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Redis",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "agy",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "agy",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L4"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "uv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uv",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L6"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "npm",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "npm",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L6"
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "io",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "crates.io",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L6",
+      "qualifiers": ["crates"]
+    },
+    {
+      "caller_nid": "$graphify-root$_agents_rules_gemini_web_memory_synchronized_gemini_web_antigravity_2_0_memory_gemini_web_memory_md",
+      "callee": "PyPI",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "PyPI",
+      "source_file": ".agents/rules/gemini-web-memory.md",
+      "source_location": "L6"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

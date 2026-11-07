@@ -95,6 +95,18 @@ export const libCarbon = dlopen(libPath, {
     ],
     returns: FFIType.f32,
   },
+  carbon_pcm16_rms: {
+    args: [FFIType.ptr, FFIType.u32],
+    returns: FFIType.f32,
+  },
+  carbon_spectrum_32_hann: {
+    args: [FFIType.ptr, FFIType.u32, FFIType.ptr],
+    returns: FFIType.u32,
+  },
+  carbon_resample_linear_f32: {
+    args: [FFIType.ptr, FFIType.u32, FFIType.ptr, FFIType.u32],
+    returns: FFIType.u32,
+  },
 });
 
 export function getNativeEngineVersion(): string {
@@ -224,3 +236,34 @@ export function nativeGemmaLayerStep(
 export const nativeSoftmax = nativeSoftmaxInplace;
 export const nativeGeGluMlp = nativeGegluMlp;
 export const nativeMatVecF32 = nativeMatVec;
+
+export function nativePcm16Rms(pcm: Int16Array): number {
+  if (pcm.length === 0) return 0;
+  return libCarbon.symbols.carbon_pcm16_rms(ptr(pcm), pcm.length);
+}
+
+export function nativeSpectrum32Hann(samples: Float32Array): Float32Array {
+  const bands = new Float32Array(32);
+  if (samples.length === 0) return bands;
+  libCarbon.symbols.carbon_spectrum_32_hann(
+    ptr(samples),
+    samples.length,
+    ptr(bands),
+  );
+  return bands;
+}
+
+export function nativeResampleLinearF32(
+  src: Float32Array,
+  targetLength: number,
+): Float32Array {
+  const dst = new Float32Array(targetLength);
+  if (src.length === 0 || targetLength <= 0) return dst;
+  libCarbon.symbols.carbon_resample_linear_f32(
+    ptr(src),
+    src.length,
+    ptr(dst),
+    targetLength,
+  );
+  return dst;
+}
