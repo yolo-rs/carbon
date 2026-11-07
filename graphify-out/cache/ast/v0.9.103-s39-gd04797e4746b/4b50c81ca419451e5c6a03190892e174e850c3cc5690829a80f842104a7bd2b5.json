@@ -1,0 +1,534 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_yaml",
+      "label": "service.ew9.yaml",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_apiversion",
+      "label": "apiVersion",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_kind",
+      "label": "kind",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_metadata",
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_metadata_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_metadata_namespace",
+      "label": "namespace",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_metadata_labels",
+      "label": "labels",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_labels_cloud_googleapis_com_location",
+      "label": "cloud.googleapis.com/location",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_labels_app_kubernetes_io_part_of",
+      "label": "app.kubernetes.io/part-of",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_labels_app_kubernetes_io_managed_by",
+      "label": "app.kubernetes.io/managed-by",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "label": "annotations",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_ingress",
+      "label": "run.googleapis.com/ingress",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_launch_stage",
+      "label": "run.googleapis.com/launch-stage",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L18"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_description",
+      "label": "run.googleapis.com/description",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L19"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_spec",
+      "label": "spec",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_spec_template",
+      "label": "template",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_template_metadata",
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_execution_environment",
+      "label": "run.googleapis.com/execution-environment",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L24"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_cpu_throttling",
+      "label": "run.googleapis.com/cpu-throttling",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L25"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_startup_cpu_boost",
+      "label": "run.googleapis.com/startup-cpu-boost",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_autoscaling_knative_dev_minscale",
+      "label": "autoscaling.knative.dev/minScale",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_annotations_autoscaling_knative_dev_maxscale",
+      "label": "autoscaling.knative.dev/maxScale",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L28"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_template_spec",
+      "label": "spec",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L29"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_spec_containerconcurrency",
+      "label": "containerConcurrency",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L30"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_spec_timeoutseconds",
+      "label": "timeoutSeconds",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L31"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_spec_serviceaccountname",
+      "label": "serviceAccountName",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L32"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "label": "containers",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L33"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_containers_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L34"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_containers_image",
+      "label": "image",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L35"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_containers_ports",
+      "label": "ports",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L36"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_containers_env",
+      "label": "env",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L39"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_containers_resources",
+      "label": "resources",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L48"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_service_ew9_resources_limits",
+      "label": "limits",
+      "file_type": "code",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_yaml",
+      "target": "$graphify-root$_infra_gcp_service_ew9_apiversion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_yaml",
+      "target": "$graphify-root$_infra_gcp_service_ew9_kind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_yaml",
+      "target": "$graphify-root$_infra_gcp_service_ew9_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata",
+      "target": "$graphify-root$_infra_gcp_service_ew9_metadata_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata",
+      "target": "$graphify-root$_infra_gcp_service_ew9_metadata_namespace",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata",
+      "target": "$graphify-root$_infra_gcp_service_ew9_metadata_labels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_labels",
+      "target": "$graphify-root$_infra_gcp_service_ew9_labels_cloud_googleapis_com_location",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_labels",
+      "target": "$graphify-root$_infra_gcp_service_ew9_labels_app_kubernetes_io_part_of",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_labels",
+      "target": "$graphify-root$_infra_gcp_service_ew9_labels_app_kubernetes_io_managed_by",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata",
+      "target": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_ingress",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_launch_stage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_yaml",
+      "target": "$graphify-root$_infra_gcp_service_ew9_spec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec",
+      "target": "$graphify-root$_infra_gcp_service_ew9_spec_template",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_template",
+      "target": "$graphify-root$_infra_gcp_service_ew9_template_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_template_metadata",
+      "target": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_execution_environment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_cpu_throttling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_run_googleapis_com_startup_cpu_boost",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_autoscaling_knative_dev_minscale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_metadata_annotations",
+      "target": "$graphify-root$_infra_gcp_service_ew9_annotations_autoscaling_knative_dev_maxscale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_template",
+      "target": "$graphify-root$_infra_gcp_service_ew9_template_spec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_template_spec",
+      "target": "$graphify-root$_infra_gcp_service_ew9_spec_containerconcurrency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_template_spec",
+      "target": "$graphify-root$_infra_gcp_service_ew9_spec_timeoutseconds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_template_spec",
+      "target": "$graphify-root$_infra_gcp_service_ew9_spec_serviceaccountname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_template_spec",
+      "target": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "target": "$graphify-root$_infra_gcp_service_ew9_containers_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "target": "$graphify-root$_infra_gcp_service_ew9_containers_image",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "target": "$graphify-root$_infra_gcp_service_ew9_containers_ports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "target": "$graphify-root$_infra_gcp_service_ew9_containers_env",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_spec_containers",
+      "target": "$graphify-root$_infra_gcp_service_ew9_containers_resources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_service_ew9_containers_resources",
+      "target": "$graphify-root$_infra_gcp_service_ew9_resources_limits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/service.ew9.yaml",
+      "source_location": "L49",
+      "weight": 1.0
+    }
+  ]
+}

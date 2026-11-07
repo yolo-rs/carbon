@@ -1,0 +1,127 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "gemini-4-carbon-radar",
+      "devDependencies": {
+        "@types/bun": "latest",
+        "bun-types": "1.4.4",
+      },
+    },
+    "packages/cli": {
+      "name": "@carbon/cli",
+      "version": "4.0.0",
+      "bin": {
+        "carbon": "src/index.ts",
+      },
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+        "@carbon/dataset": "workspace:*",
+        "@carbon/design-crawler": "workspace:*",
+        "@carbon/gemini-web-client": "workspace:*",
+        "@carbon/graph-engine": "workspace:*",
+        "@carbon/mcp-server": "workspace:*",
+        "@carbon/mesh-cluster": "workspace:*",
+        "@carbon/webgpu-gemma": "workspace:*",
+      },
+    },
+    "packages/core": {
+      "name": "@carbon/core",
+      "version": "4.0.0",
+    },
+    "packages/dataset": {
+      "name": "@carbon/dataset",
+      "version": "4.0.0",
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+      },
+    },
+    "packages/design-crawler": {
+      "name": "@carbon/design-crawler",
+      "version": "4.0.0",
+    },
+    "packages/gemini-web-client": {
+      "name": "@carbon/gemini-web-client",
+      "version": "4.0.0",
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+        "@carbon/webgpu-gemma": "workspace:*",
+      },
+    },
+    "packages/graph-engine": {
+      "name": "@carbon/graph-engine",
+      "version": "4.0.0",
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+      },
+    },
+    "packages/mcp-server": {
+      "name": "@carbon/mcp-server",
+      "version": "4.0.0",
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+        "@carbon/dataset": "workspace:*",
+        "@carbon/design-crawler": "workspace:*",
+        "@carbon/gemini-web-client": "workspace:*",
+        "@carbon/graph-engine": "workspace:*",
+        "@carbon/mesh-cluster": "workspace:*",
+        "@carbon/webgpu-gemma": "workspace:*",
+      },
+    },
+    "packages/mesh-cluster": {
+      "name": "@carbon/mesh-cluster",
+      "version": "4.0.0",
+    },
+    "packages/web": {
+      "name": "@carbon/web",
+      "version": "4.0.0",
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+        "@carbon/dataset": "workspace:*",
+        "@carbon/design-crawler": "workspace:*",
+        "@carbon/gemini-web-client": "workspace:*",
+        "@carbon/graph-engine": "workspace:*",
+        "@carbon/mcp-server": "workspace:*",
+        "@carbon/mesh-cluster": "workspace:*",
+        "@carbon/webgpu-gemma": "workspace:*",
+      },
+    },
+    "packages/webgpu-gemma": {
+      "name": "@carbon/webgpu-gemma",
+      "version": "4.0.0",
+      "dependencies": {
+        "@carbon/core": "workspace:*",
+      },
+    },
+  },
+  "packages": {
+    "@carbon/cli": ["@carbon/cli@workspace:packages/cli"],
+
+    "@carbon/core": ["@carbon/core@workspace:packages/core"],
+
+    "@carbon/dataset": ["@carbon/dataset@workspace:packages/dataset"],
+
+    "@carbon/design-crawler": ["@carbon/design-crawler@workspace:packages/design-crawler"],
+
+    "@carbon/gemini-web-client": ["@carbon/gemini-web-client@workspace:packages/gemini-web-client"],
+
+    "@carbon/graph-engine": ["@carbon/graph-engine@workspace:packages/graph-engine"],
+
+    "@carbon/mcp-server": ["@carbon/mcp-server@workspace:packages/mcp-server"],
+
+    "@carbon/mesh-cluster": ["@carbon/mesh-cluster@workspace:packages/mesh-cluster"],
+
+    "@carbon/web": ["@carbon/web@workspace:packages/web"],
+
+    "@carbon/webgpu-gemma": ["@carbon/webgpu-gemma@workspace:packages/webgpu-gemma"],
+
+    "@types/bun": ["@types/bun@1.4.4", "", { "dependencies": { "bun-types": "1.4.4" } }, "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ=="],
+
+    "@types/node": ["@types/node@26.6.6", "", { "dependencies": { "undici-types": "~8.9.0" } }, "sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog=="],
+
+    "bun-types": ["bun-types@1.4.4", "", { "dependencies": { "@types/node": "*", "undici-types": "*" } }, "sha512-yjrJh5oGX7mMPKGd19YXyIjmEuj4G4zNC30bs7PM9Az7NQ3ndF3j6hbeRdvJTRQEhJ/FYQwW0a2moweEi2hMxQ=="],
+
+    "undici-types": ["undici-types@8.9.0", "", {}, "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg=="],
+  }
+}

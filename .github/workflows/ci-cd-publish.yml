@@ -1,0 +1,145 @@
+name: CI, Quality Gates & Universal Publish Matrix
+
+on:
+  push:
+    branches: [main, master]
+    tags: ["v*"]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality-gates:
+    name: Lint, Format, Typecheck & Tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Upstream Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.4
+
+      - name: Setup Rust Toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-unknown-linux-gnu,aarch64-apple-darwin,x86_64-pc-windows-msvc
+
+      - name: Setup Astral uv (Python)
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.13.7"
+          enable-cache: true
+
+      - name: Install Monorepo Dependencies
+        run: bun install --frozen-lockfile || bun install
+
+      - name: Bun Format Check
+        run: bun fmt --check
+
+      - name: Bun Lint Check
+        run: bun lint
+
+      - name: Bun Typecheck (TS 7)
+        run: bun check
+
+      - name: Build Rust FFI Kernel
+        run: cargo build --release --manifest-path crates/carbon_ffi/Cargo.toml
+
+      - name: Rust Unit Tests
+        run: cargo test --manifest-path crates/carbon_ffi/Cargo.toml
+
+      - name: Bun Unit & Integration Tests
+        run: bun test
+
+      - name: Python Ruff Linter
+        run: uv run ruff check .
+
+      - name: Python Pytest Suite
+        run: uv run pytest
+
+      - name: Build Standalone AoT Binary
+        run: bun run compile:aot
+
+      - name: Upload Compiled Binary Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: carbon-aot-${{ matrix.os }}
+          path: |
+            bin/carbon*
+            !bin/*.pdb
+
+  publish-registries:
+    name: Multi-Registry Publish (NPM, Crates.io, PyPI, GitHub Releases)
+    needs: quality-gates
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Upstream Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.4
+
+      - name: Setup Rust Toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Setup Astral uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Publish to NPM Registry
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -n "$NPM_TOKEN" ]; then
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+            for pkg in packages/*; do
+              if [ -f "$pkg/package.json" ]; then
+                echo "Publishing $pkg to npm..."
+                cd "$pkg" && bun publish --access public || true
+                cd - > /dev/null
+              fi
+            done
+          fi
+
+      - name: Publish Rust Crates to crates.io
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+        run: |
+          if [ -n "$CARGO_REGISTRY_TOKEN" ]; then
+            cargo publish --manifest-path crates/carbon_ffi/Cargo.toml || true
+          fi
+
+      - name: Build & Publish Python Packages to PyPI
+        env:
+          UV_PUBLISH_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          if [ -n "$UV_PUBLISH_TOKEN" ]; then
+            uv build
+            uv publish || true
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            bin/carbon*

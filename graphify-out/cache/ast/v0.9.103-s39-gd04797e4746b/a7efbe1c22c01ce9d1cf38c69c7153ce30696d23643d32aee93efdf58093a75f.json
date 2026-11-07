@@ -1,0 +1,429 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_md",
+      "label": "ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_gemini_web_gateway_ecosystem_reference",
+      "label": "Google DeepMind Carbon \u2014 Gemini 4 Argon Code Review, Gemini Web Gateway & Ecosystem Reference",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "label": "1. Gemini 4 Argon (High Reasoning) Deep Code Review of Prior Session",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_2_gemini_web_app_gemini_google_com_internal_protocol_cookie_vault_openai_v1_gateway",
+      "label": "2. Gemini Web App (`gemini.google.com`) Internal Protocol, Cookie Vault & OpenAI `/v1` Gateway",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "label": "2.1 Cookie & Session Token Architecture",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_2_2_openai_compatible_v1_gateway_litellm_open_webui_openrouter_agy_cli",
+      "label": "2.2 OpenAI-Compatible `/v1` Gateway (`LiteLLM`, `Open WebUI`, `OpenRouter`, `AGY CLI`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_2_3_ecosystem_clients_catalog_pypi_npm_crates_io_github",
+      "label": "2.3 Ecosystem Clients Catalog (PyPI, npm, crates.io, GitHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_3_global_benchmarks_provider_routing_matrix",
+      "label": "3. Global Benchmarks & Provider Routing Matrix",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_4_local_design_google_mirror_carbon_design_crawler",
+      "label": "4. Local `design.google` Mirror (`@carbon/design-crawler`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L68"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_md",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_gemini_web_gateway_ecosystem_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_gemini_web_gateway_ecosystem_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_gemini_web_gateway_ecosystem_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_2_gemini_web_app_gemini_google_com_internal_protocol_cookie_vault_openai_v1_gateway",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_2_gemini_web_app_gemini_google_com_internal_protocol_cookie_vault_openai_v1_gateway",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_2_gemini_web_app_gemini_google_com_internal_protocol_cookie_vault_openai_v1_gateway",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_2_2_openai_compatible_v1_gateway_litellm_open_webui_openrouter_agy_cli",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_2_gemini_web_app_gemini_google_com_internal_protocol_cookie_vault_openai_v1_gateway",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_2_3_ecosystem_clients_catalog_pypi_npm_crates_io_github",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_gemini_web_gateway_ecosystem_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_3_global_benchmarks_provider_routing_matrix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_gemini_web_gateway_ecosystem_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_4_local_design_google_mirror_carbon_design_crawler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L68",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "toml",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Cargo.toml",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L12",
+      "qualifiers": ["Cargo"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "carbon_gemma_layer_step",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_gemma_layer_step",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "parseWorkspaceMembers",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parseWorkspaceMembers",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "parseCargoDependencies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parseCargoDependencies",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "queryBunCodebaseGraph",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "queryBunCodebaseGraph()",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "initialize",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "initialize",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "LICENSE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "LICENSE",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "NOTICE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "NOTICE",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "AUTHORS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "AUTHORS",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_gemini_web_app_gemini_google_com_internal_protocol_cookie_vault_openai_v1_gateway",
+      "callee": "com",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gemini.google.com",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L21",
+      "qualifiers": ["gemini", "google"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "RotateCookies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "RotateCookies",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "WIZ_global_data",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "WIZ_global_data",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "extractWizGlobalTokens",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "extractWizGlobalTokens",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "SNlM0e",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "SNlM0e",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "at",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "at",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "StreamGenerate",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "StreamGenerate",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "cfb2h",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "cfb2h",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "bl",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bl",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "FdrFJe",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "FdrFJe",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "sid",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "f.sid",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L39",
+      "qualifiers": ["f"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_1_cookie_session_token_architecture",
+      "callee": "buildStreamGeneratePayload",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "buildStreamGeneratePayload",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_2_openai_compatible_v1_gateway_litellm_open_webui_openrouter_agy_cli",
+      "callee": "LiteLLM",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "LiteLLM",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_2_openai_compatible_v1_gateway_litellm_open_webui_openrouter_agy_cli",
+      "callee": "OpenRouter",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "OpenRouter",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_2_openai_compatible_v1_gateway_litellm_open_webui_openrouter_agy_cli",
+      "callee": "openai",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "openai",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_3_ecosystem_clients_catalog_pypi_npm_crates_io_github",
+      "callee": "httpx",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "httpx",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_3_ecosystem_clients_catalog_pypi_npm_crates_io_github",
+      "callee": "RotateCookies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "RotateCookies",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_3_ecosystem_clients_catalog_pypi_npm_crates_io_github",
+      "callee": "litellm",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "litellm",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_3_ecosystem_clients_catalog_pypi_npm_crates_io_github",
+      "callee": "carbon_ffi",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_ffi",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_global_benchmarks_provider_routing_matrix",
+      "callee": "ai",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "lmarena.ai",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L60",
+      "qualifiers": ["lmarena"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_4_local_design_google_mirror_carbon_design_crawler",
+      "callee": "google",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "design.google",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L68",
+      "qualifiers": ["design"]
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

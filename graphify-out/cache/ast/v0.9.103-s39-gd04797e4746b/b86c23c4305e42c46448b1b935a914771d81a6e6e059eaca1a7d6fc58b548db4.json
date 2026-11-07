@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_md",
+      "label": "BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_upstream_bun_knowledge_base_architecture_ground_truth_v1_4_4",
+      "label": "Upstream Bun Knowledge Base & Architecture Ground Truth (v1.4.4)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_1_fact_checked_upstream_bun_reality",
+      "label": "1. Fact-Checked Upstream Bun Reality",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_2_ingested_codebase_graph_statistics_carbon_graph_engine",
+      "label": "2. Ingested Codebase Graph Statistics (`@carbon/graph-engine`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_3_usage_in_carbon_gemma_4_tuning",
+      "label": "3. Usage in Carbon & Gemma 4 Tuning",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_md",
+      "target": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_upstream_bun_knowledge_base_architecture_ground_truth_v1_4_4",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_upstream_bun_knowledge_base_architecture_ground_truth_v1_4_4",
+      "target": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_1_fact_checked_upstream_bun_reality",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_upstream_bun_knowledge_base_architecture_ground_truth_v1_4_4",
+      "target": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_2_ingested_codebase_graph_statistics_carbon_graph_engine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_upstream_bun_knowledge_base_architecture_ground_truth_v1_4_4",
+      "target": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_3_usage_in_carbon_gemma_4_tuning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L30",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_1_fact_checked_upstream_bun_reality",
+      "callee": "tsgo",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "tsgo",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_3_usage_in_carbon_gemma_4_tuning",
+      "callee": "aot",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "aot",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_3_usage_in_carbon_gemma_4_tuning",
+      "callee": "bundler",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bundler",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_bun_upstream_knowledge_and_graph_3_usage_in_carbon_gemma_4_tuning",
+      "callee": "sql",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "sql",
+      "source_file": "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md",
+      "source_location": "L32"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

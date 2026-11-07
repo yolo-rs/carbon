@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "label": "train.py",
+      "file_type": "code",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_gemma_train_gemma_train_train_get_fine_tuning_config",
+      "label": "get_fine_tuning_config()",
+      "file_type": "code",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L15",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/python/gemma_train/gemma_train/train.py"
+    },
+    {
+      "id": "$graphify-root$_python_gemma_train_gemma_train_train_verify_native_gemma_step",
+      "label": "verify_native_gemma_step()",
+      "file_type": "code",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_gemma_train_gemma_train_train_print_training_plan",
+      "label": "print_training_plan()",
+      "file_type": "code",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_gemma_train_gemma_train_train_rationale_4",
+      "label": "Google DeepMind Carbon \u2014 Gemma 4 E2B Fine-Tuning, Post-Training & Native Layer\u2026",
+      "file_type": "rationale",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [["math", "math"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [["Any", "Any"]]
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_get_fine_tuning_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_get_fine_tuning_config",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_verify_native_gemma_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_print_training_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_print_training_plan",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_get_fine_tuning_config",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_print_training_plan",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_verify_native_gemma_step",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_train_rationale_4",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L4",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_python_gemma_train_gemma_train_train_verify_native_gemma_step",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L57",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1951, 1968]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_gemma_train_gemma_train_train_verify_native_gemma_step",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L59",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [2054, 2068]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_gemma_train_gemma_train_train_verify_native_gemma_step",
+      "callee": "native_gemma_layer_step",
+      "is_member_call": false,
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L63",
+      "receiver": null,
+      "_python_call_site": [2318, 2396]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_gemma_train_gemma_train_train_print_training_plan",
+      "callee": "get_native_engine_version",
+      "is_member_call": false,
+      "source_file": "python/gemma_train/gemma_train/train.py",
+      "source_location": "L71",
+      "receiver": null,
+      "_python_call_site": [2652, 2679]
+    }
+  ]
+}

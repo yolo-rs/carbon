@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_tests_test_carbon_py",
+      "label": "test_carbon.py",
+      "file_type": "code",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_tests_test_carbon_test_engine_version",
+      "label": "test_engine_version()",
+      "file_type": "code",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L15",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_tests_test_carbon_test_dot_product_and_cosine",
+      "label": "test_dot_product_and_cosine()",
+      "file_type": "code",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_tests_test_carbon_test_rmsnorm_and_geglu",
+      "label": "test_rmsnorm_and_geglu()",
+      "file_type": "code",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_tests_test_carbon_test_softmax",
+      "label": "test_softmax()",
+      "file_type": "code",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L43",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_tests_test_carbon_test_gemma_layer_step",
+      "label": "test_gemma_layer_step()",
+      "file_type": "code",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L50",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_tests_test_carbon_py",
+      "target": "$graphify-root$_python_tests_test_carbon_test_engine_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_tests_test_carbon_py",
+      "target": "$graphify-root$_python_tests_test_carbon_test_dot_product_and_cosine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_tests_test_carbon_py",
+      "target": "$graphify-root$_python_tests_test_carbon_test_rmsnorm_and_geglu",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_tests_test_carbon_py",
+      "target": "$graphify-root$_python_tests_test_carbon_test_softmax",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_tests_test_carbon_py",
+      "target": "$graphify-root$_python_tests_test_carbon_test_gemma_layer_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L50",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_engine_version",
+      "callee": "get_native_engine_version",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [316, 343]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_dot_product_and_cosine",
+      "callee": "native_dot_product",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L23",
+      "receiver": null,
+      "_python_call_site": [486, 510]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_dot_product_and_cosine",
+      "callee": "native_cosine_similarity",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_call_site": [555, 585]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_rmsnorm_and_geglu",
+      "callee": "native_rmsnorm_gemma",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [721, 753]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_rmsnorm_and_geglu",
+      "callee": "native_geglu_mlp",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [868, 894]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_softmax",
+      "callee": "native_softmax",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_call_site": [1013, 1040]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_tests_test_carbon_test_gemma_layer_step",
+      "callee": "native_gemma_layer_step",
+      "is_member_call": false,
+      "source_file": "python/tests/test_carbon.py",
+      "source_location": "L51",
+      "receiver": null,
+      "_python_call_site": [1163, 1198]
+    }
+  ]
+}

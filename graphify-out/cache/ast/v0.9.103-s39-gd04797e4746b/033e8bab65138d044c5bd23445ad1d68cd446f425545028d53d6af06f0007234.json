@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "pkg_carbon_cli",
+      "label": "carbon-cli",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "python/carbon_cli/pyproject.toml",
+      "source_location": "L1",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pkg_carbon_cli",
+      "target": "pkg_carbon_core",
+      "relation": "depends_on",
+      "context": "dependency",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "python/carbon_cli/pyproject.toml",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ]
+}

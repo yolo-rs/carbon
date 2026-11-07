@@ -1,0 +1,44 @@
+{
+  "name": "google-deepmind-carbon",
+  "version": "4.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google LLC (Google DeepMind Paris & Global)",
+  "description": "Google DeepMind Carbon — Paris Beta to Global Scale Intelligence, Gemini Web App & OpenAI Gateway, Gemma 4 WebGPU/FFI Runtime, Upstream Bun Knowledge Graph & Google Design Mirror",
+  "sideEffects": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "bun run src/main.ts server",
+    "dev": "bun --hot run src/main.ts server",
+    "cli": "bun run src/main.ts",
+    "cli:status": "bun run src/main.ts status",
+    "cli:news": "bun run src/main.ts news",
+    "cli:changelog": "bun run src/main.ts changelog",
+    "cli:practices": "bun run src/main.ts practices",
+    "cli:gcloud": "bun run src/main.ts gcloud",
+    "cli:sync": "bun run src/main.ts sync",
+    "cli:bench": "bun run src/main.ts ffi-benchmark",
+    "cli:gemma": "bun run src/main.ts gemma-step",
+    "cli:graph": "bun run src/main.ts graph-query",
+    "cli:mesh": "bun run src/main.ts mesh",
+    "cli:mcp": "bun run src/main.ts mcp-tools",
+    "cli:gemini-web": "bun run src/main.ts gemini-web",
+    "cli:benchmarks": "bun run src/main.ts benchmarks",
+    "cli:crawl-design": "bun run src/main.ts crawl-design",
+    "cli:yolo-web": "bun run src/main.ts yolo-web",
+    "cli:gpui-studio": "bun run src/main.ts gpui-studio",
+    "web": "bun --filter @carbon/web start",
+    "web:dev": "bun --filter @carbon/web dev",
+    "compile:aot": "bun compile src/main.ts --outfile bin/carbon.exe",
+    "test": "bun test",
+    "check": "bun check",
+    "fmt": "bun fmt",
+    "lint": "bun lint"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "1.4.4"
+  }
+}

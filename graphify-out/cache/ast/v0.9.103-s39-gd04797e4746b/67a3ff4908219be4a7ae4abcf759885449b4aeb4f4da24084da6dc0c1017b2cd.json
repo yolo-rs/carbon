@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_docs_gpui_antigravity_roadmap_md",
+      "label": "GPUI_ANTIGRAVITY_ROADMAP.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_gpui_antigravity_roadmap_native_gpui_gemini_web_app_antigravity_2_0_zed_fork_roadmap",
+      "label": "Native GPUI Gemini Web App & Antigravity 2.0 Zed Fork Roadmap",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_docs_gpui_antigravity_roadmap_1_core_architectural_tenets",
+      "label": "1. Core Architectural Tenets",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_docs_gpui_antigravity_roadmap_2_autonomous_pipeline_registry_release",
+      "label": "2. Autonomous Pipeline & Registry Release",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L35"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_docs_gpui_antigravity_roadmap_md",
+      "target": "$graphify-root$_docs_gpui_antigravity_roadmap_native_gpui_gemini_web_app_antigravity_2_0_zed_fork_roadmap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_gpui_antigravity_roadmap_native_gpui_gemini_web_app_antigravity_2_0_zed_fork_roadmap",
+      "target": "$graphify-root$_docs_gpui_antigravity_roadmap_1_core_architectural_tenets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_gpui_antigravity_roadmap_native_gpui_gemini_web_app_antigravity_2_0_zed_fork_roadmap",
+      "target": "$graphify-root$_docs_gpui_antigravity_roadmap_2_autonomous_pipeline_registry_release",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L35",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_docs_gpui_antigravity_roadmap_1_core_architectural_tenets",
+      "callee": "RotateCookies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "RotateCookies",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_gpui_antigravity_roadmap_1_core_architectural_tenets",
+      "callee": "SNlM0e",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "SNlM0e",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_gpui_antigravity_roadmap_1_core_architectural_tenets",
+      "callee": "carbon_ffi",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_ffi",
+      "source_file": "docs/GPUI_ANTIGRAVITY_ROADMAP.md",
+      "source_location": "L25"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

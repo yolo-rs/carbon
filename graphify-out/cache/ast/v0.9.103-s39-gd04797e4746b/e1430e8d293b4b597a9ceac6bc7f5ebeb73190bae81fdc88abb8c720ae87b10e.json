@@ -1,0 +1,569 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_yaml",
+      "label": "litellm-config.yaml",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "label": "model_list",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_list_model_name",
+      "label": "model_name",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "label": "litellm_params",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_litellm_params_model",
+      "label": "model",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_base",
+      "label": "api_base",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_key",
+      "label": "api_key",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "label": "model_info",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_info_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_info_max_tokens",
+      "label": "max_tokens",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_model_info_max_input_tokens",
+      "label": "max_input_tokens",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_litellm_params_vertex_project",
+      "label": "vertex_project",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_litellm_params_vertex_location",
+      "label": "vertex_location",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L23"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_router_settings",
+      "label": "router_settings",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L53"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_router_settings_routing_strategy",
+      "label": "routing_strategy",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L54"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_router_settings_num_retries",
+      "label": "num_retries",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L55"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_router_settings_timeout",
+      "label": "timeout",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L56"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_general_settings",
+      "label": "general_settings",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L58"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_general_settings_master_key",
+      "label": "master_key",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L59"
+    },
+    {
+      "id": "$graphify-root$_infra_gateway_litellm_config_general_settings_database_connection_pool_limit",
+      "label": "database_connection_pool_limit",
+      "file_type": "code",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_yaml",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_base",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_max_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_max_input_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_vertex_project",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_vertex_location",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_max_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_max_input_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_base",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_base",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_max_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_model_info",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_info_max_input_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_model_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list",
+      "target": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_base",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_model_list_litellm_params",
+      "target": "$graphify-root$_infra_gateway_litellm_config_litellm_params_api_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_yaml",
+      "target": "$graphify-root$_infra_gateway_litellm_config_router_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_router_settings",
+      "target": "$graphify-root$_infra_gateway_litellm_config_router_settings_routing_strategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_router_settings",
+      "target": "$graphify-root$_infra_gateway_litellm_config_router_settings_num_retries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_router_settings",
+      "target": "$graphify-root$_infra_gateway_litellm_config_router_settings_timeout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_yaml",
+      "target": "$graphify-root$_infra_gateway_litellm_config_general_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_general_settings",
+      "target": "$graphify-root$_infra_gateway_litellm_config_general_settings_master_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gateway_litellm_config_general_settings",
+      "target": "$graphify-root$_infra_gateway_litellm_config_general_settings_database_connection_pool_limit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gateway/litellm-config.yaml",
+      "source_location": "L60",
+      "weight": 1.0
+    }
+  ]
+}

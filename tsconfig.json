@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "types": ["bun-types"],
+    "paths": {
+      "@carbon/core": ["./packages/core/src/index.ts"],
+      "@carbon/dataset": ["./packages/dataset/src/index.ts"],
+      "@carbon/design-crawler": ["./packages/design-crawler/src/index.ts"],
+      "@carbon/gemini-web-client": [
+        "./packages/gemini-web-client/src/index.ts"
+      ],
+      "@carbon/graph-engine": ["./packages/graph-engine/src/index.ts"],
+      "@carbon/webgpu-gemma": ["./packages/webgpu-gemma/src/index.ts"],
+      "@carbon/mesh-cluster": ["./packages/mesh-cluster/src/index.ts"],
+      "@carbon/mcp-server": ["./packages/mcp-server/src/index.ts"],
+      "@carbon/cli": ["./packages/cli/src/index.ts"],
+      "@carbon/web": ["./packages/web/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "packages/*/src/**/*", "tests/**/*"]
+}

@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_carbon_cli_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "python/carbon_cli/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_cli_readme_carbon_cli_python",
+      "label": "Carbon CLI (Python)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "python/carbon_cli/README.md",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_carbon_cli_readme_md",
+      "target": "$graphify-root$_python_carbon_cli_readme_carbon_cli_python",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_cli/README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

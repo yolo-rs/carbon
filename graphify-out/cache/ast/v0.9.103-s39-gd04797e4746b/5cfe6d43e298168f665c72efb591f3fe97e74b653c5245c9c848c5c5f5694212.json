@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "label": "load_codebase_graph()",
+      "file_type": "code",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L17",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/python/carbon_graph/carbon_graph/__init__.py"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "label": "query_subsystems()",
+      "file_type": "code",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "label": "get_graph_summary()",
+      "file_type": "code",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L43",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [["Path", "Path"]]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [["Any", "Any"]]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "target": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "target": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_py",
+      "target": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "target": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "target": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L18",
+      "receiver": "GRAPH_JSON_PATH",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [330, 354]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "callee": "GRAPH_JSON_PATH",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L20",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [434, 446]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_load_codebase_graph",
+      "callee": "f",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L35",
+      "receiver": "subsystem_name",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [789, 811]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L38",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [858, 880]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [897, 930]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L39",
+      "receiver": "node",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [897, 922]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [939, 967]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_query_subsystems",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L39",
+      "receiver": "node",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [939, 959]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L46",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1153, 1176]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L47",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1211, 1248]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L48",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1283, 1306]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L49",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1345, 1372]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L50",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1408, 1431]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L51",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1467, 1510]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_graph_carbon_graph_init_get_graph_summary",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_graph/carbon_graph/__init__.py",
+      "source_location": "L51",
+      "receiver": "graph",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1477, 1504]
+    }
+  ]
+}

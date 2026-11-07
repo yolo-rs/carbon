@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_contributing_md",
+      "label": "CONTRIBUTING.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_contributing_contributing_to_google_deepmind_carbon",
+      "label": "Contributing to Google DeepMind Carbon",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_contributing_contributor_license_agreement_cla",
+      "label": "Contributor License Agreement (CLA)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "label": "Engineering & Style Standards (`google/styleguide`)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L9"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_contributing_md",
+      "target": "$graphify-root$_contributing_contributing_to_google_deepmind_carbon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_contributing_contributing_to_google_deepmind_carbon",
+      "target": "$graphify-root$_contributing_contributor_license_agreement_cla",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_contributing_contributing_to_google_deepmind_carbon",
+      "target": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L9",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "carbon_dot_product",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_dot_product",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "carbon_rmsnorm_gemma",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_rmsnorm_gemma",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "carbon_geglu_mlp",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_geglu_mlp",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "carbon_rope_inplace",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_rope_inplace",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "serve",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Bun.serve",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L19",
+      "qualifiers": ["Bun"]
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "file",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Bun.file",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L19",
+      "qualifiers": ["Bun"]
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "uv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uv",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "$graphify-root$_contributing_engineering_style_standards_google_styleguide",
+      "callee": "graphify",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "graphify",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L27"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

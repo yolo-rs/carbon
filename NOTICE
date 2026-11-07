@@ -1,0 +1,11 @@
+Google DeepMind Carbon (Project Carbon)
+Copyright 2026 Google LLC
+
+This product includes software developed at Google DeepMind (Paris Hub, France / Global)
+and Google Cloud Vertex AI (https://deepmind.google / https://cloud.google.com/vertex-ai).
+
+Upstream Telemetry & Runtime Attribution:
+- Upstream Bun Runtime (oven-sh/bun v1.4.4+) — MIT License
+- Google Dawn WebGPU Engine (google/dawn) — BSD 3-Clause License
+- Google Highway SIMD Architecture (google/highway) — Apache 2.0 License
+- Google DeepMind Gemma Architecture (google-deepmind/gemma) — Apache 2.0 License

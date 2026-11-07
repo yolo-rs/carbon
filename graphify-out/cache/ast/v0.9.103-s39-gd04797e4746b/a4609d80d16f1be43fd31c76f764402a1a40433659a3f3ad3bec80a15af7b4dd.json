@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_yaml",
+      "label": "vertex-gemma4-sft-job.yaml",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_displayname",
+      "label": "displayName",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec",
+      "label": "jobSpec",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_workerpoolspecs",
+      "label": "workerPoolSpecs",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_machinespec",
+      "label": "machineSpec",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_machinespec_machinetype",
+      "label": "machineType",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_machinespec_acceleratortype",
+      "label": "acceleratorType",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_machinespec_acceleratorcount",
+      "label": "acceleratorCount",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_replicacount",
+      "label": "replicaCount",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_diskspec",
+      "label": "diskSpec",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_diskspec_bootdisktype",
+      "label": "bootDiskType",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_diskspec_bootdisksizegb",
+      "label": "bootDiskSizeGb",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_containerspec",
+      "label": "containerSpec",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L18"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_imageuri",
+      "label": "imageUri",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L19"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_command",
+      "label": "command",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "label": "env",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_value",
+      "label": "value",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L23"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_scheduling",
+      "label": "scheduling",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L30"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_scheduling_timeout",
+      "label": "timeout",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L31"
+    },
+    {
+      "id": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_scheduling_restartjobonworkerrestart",
+      "label": "restartJobOnWorkerRestart",
+      "file_type": "code",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_yaml",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_displayname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_yaml",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_workerpoolspecs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_workerpoolspecs",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_machinespec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_machinespec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_machinespec_machinetype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_machinespec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_machinespec_acceleratortype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_machinespec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_machinespec_acceleratorcount",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_workerpoolspecs",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_replicacount",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_workerpoolspecs",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_diskspec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_diskspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_diskspec_bootdisktype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_diskspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_diskspec_bootdisksizegb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_workerpoolspecs",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_containerspec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_containerspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_imageuri",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_containerspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_command",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_workerpoolspecs_containerspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_value",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_value",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_value",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_containerspec_env",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_env_value",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_scheduling",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_scheduling",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_scheduling_timeout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_jobspec_scheduling",
+      "target": "$graphify-root$_infra_gcp_vertex_gemma4_sft_job_scheduling_restartjobonworkerrestart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "infra/gcp/vertex-gemma4-sft-job.yaml",
+      "source_location": "L32",
+      "weight": 1.0
+    }
+  ]
+}

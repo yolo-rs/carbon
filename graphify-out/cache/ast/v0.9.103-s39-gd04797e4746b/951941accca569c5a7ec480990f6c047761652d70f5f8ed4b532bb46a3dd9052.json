@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "label": "extract_wiz_tokens()",
+      "file_type": "code",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L19",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_cookie_header",
+      "label": "build_cookie_header()",
+      "file_type": "code",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "label": "build_stream_generate_payload()",
+      "file_type": "code",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/python/carbon_gemini_web/carbon_gemini_web/__init__.py"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_print_gemini_web_summary",
+      "label": "print_gemini_web_summary()",
+      "file_type": "code",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L54",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "re",
+      "_python_import_bindings": [["re", "re"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [["Any", "Any"]]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "urllib_parse",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "urllib.parse",
+      "_python_import_bindings": [["urlencode", "urlencode"]]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_cookie_header",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_py",
+      "target": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_print_gemini_web_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L54",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L20",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [587, 631]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L21",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [644, 687]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L22",
+      "receiver": "re",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [701, 745]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L24",
+      "receiver": "snlm0e",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [587, 631],
+      "_python_call_site": [777, 792]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L25",
+      "receiver": "cfb2h",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [644, 687],
+      "_python_call_site": [831, 845]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_extract_wiz_tokens",
+      "callee": "group",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L26",
+      "receiver": "fdrfje",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [701, 745],
+      "_python_call_site": [884, 899]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_cookie_header",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L33",
+      "receiver": "parts",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1093, 1143]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_cookie_header",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1155, 1171]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L41",
+      "receiver": "prompt",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1379, 1409]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L43",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1444, 1556]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L46",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1573, 1602]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_build_stream_generate_payload",
+      "callee": "urlencode",
+      "is_member_call": false,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_call_site": [1614, 1665]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_gemini_web_carbon_gemini_web_init_print_gemini_web_summary",
+      "callee": "get_native_engine_version",
+      "is_member_call": false,
+      "source_file": "python/carbon_gemini_web/carbon_gemini_web/__init__.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [1959, 1986]
+    }
+  ]
+}

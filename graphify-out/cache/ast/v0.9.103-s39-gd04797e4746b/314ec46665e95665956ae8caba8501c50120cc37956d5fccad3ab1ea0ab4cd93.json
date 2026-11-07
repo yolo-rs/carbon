@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_security_md",
+      "label": "SECURITY.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "SECURITY.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_security_security_policy_google_deepmind_carbon",
+      "label": "Security Policy \u2014 Google DeepMind Carbon",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "SECURITY.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_security_reporting_a_vulnerability",
+      "label": "Reporting a Vulnerability",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "SECURITY.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_security_security_architecture_invariants",
+      "label": "Security Architecture Invariants",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "SECURITY.md",
+      "source_location": "L10"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_security_md",
+      "target": "$graphify-root$_security_security_policy_google_deepmind_carbon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_security_security_policy_google_deepmind_carbon",
+      "target": "$graphify-root$_security_reporting_a_vulnerability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_security_security_policy_google_deepmind_carbon",
+      "target": "$graphify-root$_security_security_architecture_invariants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SECURITY.md",
+      "source_location": "L10",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_security_security_architecture_invariants",
+      "callee": "gcloud",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gcloud",
+      "source_file": "SECURITY.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_security_security_architecture_invariants",
+      "callee": "from_raw_parts",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "std::slice::from_raw_parts",
+      "source_file": "SECURITY.md",
+      "source_location": "L15",
+      "qualifiers": ["std", "slice"],
+      "ns_qualified": true
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

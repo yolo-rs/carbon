@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_md",
+      "label": "UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "label": "Gemini 4 Carbon // Unified Real-Time AI & Distributed Mesh Architecture",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_1_upstream_bun_codebase_dataset_continuous_harvesting",
+      "label": "1. Upstream Bun Codebase Dataset & Continuous Harvesting",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_2_gemma_4_e2b_training_post_training_fine_tuning_pipeline",
+      "label": "2. Gemma 4 E2B Training, Post-Training & Fine-Tuning Pipeline",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_3_zero_dependency_webgpu_gemma_4_in_browser_engine",
+      "label": "3. Zero-Dependency WebGPU Gemma 4 In-Browser Engine",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_4_unified_distributed_mesh_single_cluster_rack",
+      "label": "4. Unified Distributed Mesh & Single-Cluster Rack",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_unified_cluster_aggregate_capacity",
+      "label": "Unified Cluster Aggregate Capacity",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_5_execution_commands",
+      "label": "5. Execution Commands",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L60"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_md",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_1_upstream_bun_codebase_dataset_continuous_harvesting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_2_gemma_4_e2b_training_post_training_fine_tuning_pipeline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_3_zero_dependency_webgpu_gemma_4_in_browser_engine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_4_unified_distributed_mesh_single_cluster_rack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_4_unified_distributed_mesh_single_cluster_rack",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_unified_cluster_aggregate_capacity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_gemini_4_carbon_unified_real_time_ai_distributed_mesh_architecture",
+      "target": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_5_execution_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L60",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_1_upstream_bun_codebase_dataset_continuous_harvesting",
+      "callee": "toml",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Cargo.toml",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L11",
+      "qualifiers": ["Cargo"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_1_upstream_bun_codebase_dataset_continuous_harvesting",
+      "callee": "toml",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "bunfig.toml",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L11",
+      "qualifiers": ["bunfig"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_1_upstream_bun_codebase_dataset_continuous_harvesting",
+      "callee": "formatGemmaInstructionPair",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "formatGemmaInstructionPair",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_3_zero_dependency_webgpu_gemma_4_in_browser_engine",
+      "callee": "GEMMA_WGSL_MATMUL",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GEMMA_WGSL_MATMUL",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_unified_cluster_and_gemma_architecture_3_zero_dependency_webgpu_gemma_4_in_browser_engine",
+      "callee": "GEMMA_WGSL_RMSNORM",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GEMMA_WGSL_RMSNORM",
+      "source_file": "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md",
+      "source_location": "L33"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

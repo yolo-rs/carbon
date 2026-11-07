@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_gemma_train_gemma_train_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "python/gemma_train/gemma_train/__init__.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_gemma_train_gemma_train_init_py",
+      "target": "$graphify-root$_python_gemma_train_gemma_train_train_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/gemma_train/gemma_train/__init__.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/python/gemma_train/gemma_train/train.py"
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/python/gemma_train/gemma_train/train.py"
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_carbon_web_carbon_web_server_py",
+      "label": "server.py",
+      "file_type": "code",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler",
+      "label": "CarbonHandler",
+      "file_type": "code",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "basehttprequesthandler",
+      "label": "BaseHTTPRequestHandler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/python/carbon_web/carbon_web/server.py"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "label": ".do_GET()",
+      "file_type": "code",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L15",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "label": ".do_POST()",
+      "file_type": "code",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_log_message",
+      "label": ".log_message()",
+      "file_type": "code",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L47",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "label": "run_server()",
+      "file_type": "code",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L51",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [["json", "json"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "os",
+      "_python_import_bindings": [["os", "os"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_py",
+      "target": "http_server",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "http.server",
+      "_python_import_bindings": [
+        ["BaseHTTPRequestHandler", "BaseHTTPRequestHandler"],
+        ["HTTPServer", "HTTPServer"]
+      ]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_py",
+      "target": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler",
+      "target": "basehttprequesthandler",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler",
+      "target": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler",
+      "target": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler",
+      "target": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_log_message",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_web_carbon_web_server_py",
+      "target": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L51",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "load_carbon_data",
+      "is_member_call": false,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L17",
+      "receiver": null,
+      "_python_call_site": [468, 486]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "get_native_engine_version",
+      "is_member_call": false,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_call_site": [522, 549]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [572, 614]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L19",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [572, 598]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "send_response",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L20",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [627, 650]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "send_header",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L21",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [663, 715]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "send_header",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L22",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [728, 781]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "end_headers",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L23",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [794, 812]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "write",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L24",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [825, 850]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "send_response",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L26",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [877, 900]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "end_headers",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L27",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [913, 931]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "write",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [944, 974]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "load_carbon_data",
+      "is_member_call": false,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [1063, 1081]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "save_carbon_data",
+      "is_member_call": false,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_call_site": [1094, 1116]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1135, 1248]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L34",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [1135, 1202]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L34",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1177, 1200]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "send_response",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L37",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1261, 1284]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "send_header",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L38",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1297, 1349]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "send_header",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L39",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1362, 1411]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "end_headers",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L40",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1424, 1442]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "write",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1455, 1476]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "send_response",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L43",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1503, 1526]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "end_headers",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L44",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1539, 1557]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "write",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [1570, 1600]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "callee": "HTTPServer",
+      "is_member_call": false,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_call_site": [1719, 1758]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "callee": "HOST",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "callee": "PORT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "callee": "serve_forever",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L55",
+      "receiver": "server",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HTTPServer",
+      "_python_call_site": [1858, 1880]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_run_server",
+      "callee": "server_close",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L57",
+      "receiver": "server",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HTTPServer",
+      "_python_call_site": [1919, 1940]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "wfile",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L28",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "wfile",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L24",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_get",
+      "callee": "path",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L16",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "wfile",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L45",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "wfile",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L41",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_web_carbon_web_server_carbonhandler_do_post",
+      "callee": "path",
+      "is_member_call": true,
+      "source_file": "python/carbon_web/carbon_web/server.py",
+      "source_location": "L31",
+      "_python_attr_read": true,
+      "receiver": "self"
+    }
+  ]
+}

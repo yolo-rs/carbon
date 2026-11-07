@@ -1,0 +1,829 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_packages_cli_package_json",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_license",
+      "label": "license",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_sideeffects",
+      "label": "sideEffects",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_bin",
+      "label": "bin",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_bin_carbon",
+      "label": "carbon",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_start",
+      "label": "start",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_status",
+      "label": "status",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_news",
+      "label": "news",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_changelog",
+      "label": "changelog",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_practices",
+      "label": "practices",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_gcloud",
+      "label": "gcloud",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_sync",
+      "label": "sync",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_ffi_benchmark",
+      "label": "ffi-benchmark",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_gemma_step",
+      "label": "gemma-step",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_graph_query",
+      "label": "graph-query",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_mesh",
+      "label": "mesh",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_mcp_tools",
+      "label": "mcp-tools",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L23"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_gemini_web",
+      "label": "gemini-web",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_benchmarks",
+      "label": "benchmarks",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_crawl_design",
+      "label": "crawl-design",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_yolo_web",
+      "label": "yolo-web",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_check",
+      "label": "check",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_core",
+      "label": "@carbon/core@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "ref_carbon_core",
+      "label": "@carbon/core",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_dataset",
+      "label": "@carbon/dataset@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L33"
+    },
+    {
+      "id": "ref_carbon_dataset",
+      "label": "@carbon/dataset",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L33"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_design_crawler",
+      "label": "@carbon/design-crawler@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "ref_carbon_design_crawler",
+      "label": "@carbon/design-crawler",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_gemini_web_client",
+      "label": "@carbon/gemini-web-client@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "ref_carbon_gemini_web_client",
+      "label": "@carbon/gemini-web-client",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_graph_engine",
+      "label": "@carbon/graph-engine@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L36"
+    },
+    {
+      "id": "ref_carbon_graph_engine",
+      "label": "@carbon/graph-engine",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L36"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_mcp_server",
+      "label": "@carbon/mcp-server@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "ref_carbon_mcp_server",
+      "label": "@carbon/mcp-server",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_mesh_cluster",
+      "label": "@carbon/mesh-cluster@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L38"
+    },
+    {
+      "id": "ref_carbon_mesh_cluster",
+      "label": "@carbon/mesh-cluster",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L38"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_dependencies_carbon_webgpu_gemma",
+      "label": "@carbon/webgpu-gemma@workspace:*",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L39"
+    },
+    {
+      "id": "ref_carbon_webgpu_gemma",
+      "label": "@carbon/webgpu-gemma",
+      "file_type": "concept",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L39"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_exports",
+      "label": "exports",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L41"
+    },
+    {
+      "id": "$graphify-root$_packages_cli_package_main",
+      "label": "main",
+      "file_type": "code",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L44"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_sideeffects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_bin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_bin",
+      "target": "$graphify-root$_packages_cli_package_bin_carbon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_news",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_changelog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_gcloud",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_sync",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_ffi_benchmark",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_gemma_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_graph_query",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_mesh",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_mcp_tools",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_gemini_web",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_benchmarks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_crawl_design",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_yolo_web",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_scripts",
+      "target": "$graphify-root$_packages_cli_package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_core",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_core",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_core",
+      "target": "ref_carbon_core",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_dataset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_dataset",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_dataset",
+      "target": "ref_carbon_dataset",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_design_crawler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_design_crawler",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_design_crawler",
+      "target": "ref_carbon_design_crawler",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_gemini_web_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_gemini_web_client",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_gemini_web_client",
+      "target": "ref_carbon_gemini_web_client",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_graph_engine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_graph_engine",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_graph_engine",
+      "target": "ref_carbon_graph_engine",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_mcp_server",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_mcp_server",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_mcp_server",
+      "target": "ref_carbon_mcp_server",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_mesh_cluster",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_mesh_cluster",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_mesh_cluster",
+      "target": "ref_carbon_mesh_cluster",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies",
+      "target": "$graphify-root$_packages_cli_package_dependencies_carbon_webgpu_gemma",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "ref_carbon_webgpu_gemma",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_dependencies_carbon_webgpu_gemma",
+      "target": "ref_carbon_webgpu_gemma",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_exports",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_packages_cli_package_json",
+      "target": "$graphify-root$_packages_cli_package_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/cli/package.json",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ]
+}

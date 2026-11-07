@@ -1,0 +1,418 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "label": "ffi.py",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_get_native_engine_version",
+      "label": "get_native_engine_version()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_dot_product",
+      "label": "native_dot_product()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L81",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_cosine_similarity",
+      "label": "native_cosine_similarity()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L89",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_softmax",
+      "label": "native_softmax()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_rmsnorm_gemma",
+      "label": "native_rmsnorm_gemma()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L105",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_geglu_mlp",
+      "label": "native_geglu_mlp()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L117",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_gemma_layer_step",
+      "label": "native_gemma_layer_step()",
+      "file_type": "code",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L127",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "ctypes",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "ctypes",
+      "_python_import_bindings": [["ctypes", "ctypes"]],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "collections_abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "collections.abc",
+      "_python_import_bindings": [["Sequence", "Sequence"]]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [["Path", "Path"]]
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_get_native_engine_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_dot_product",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_cosine_similarity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_softmax",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_rmsnorm_gemma",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_geglu_mlp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "target": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_gemma_layer_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L127",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_get_native_engine_version",
+      "callee": "carbon_engine_version",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L77",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2013, 2041]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_get_native_engine_version",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L78",
+      "receiver": "res",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [2013, 2041],
+      "_python_call_site": [2053, 2072]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_dot_product",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L83",
+      "receiver": null,
+      "_python_call_site": [2202, 2259]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_dot_product",
+      "callee": "carbon_dot_product",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L86",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2323, 2371]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_cosine_similarity",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L91",
+      "receiver": null,
+      "_python_call_site": [2493, 2550]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_cosine_similarity",
+      "callee": "carbon_cosine_similarity",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L94",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2614, 2668]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_softmax",
+      "callee": "carbon_softmax_inplace",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L101",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [2831, 2882]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_rmsnorm_gemma",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L109",
+      "receiver": null,
+      "_python_call_site": [3064, 3127]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_rmsnorm_gemma",
+      "callee": "carbon_rmsnorm_gemma",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L113",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3198, 3265]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_geglu_mlp",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L119",
+      "receiver": null,
+      "_python_call_site": [3415, 3475]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_geglu_mlp",
+      "callee": "carbon_geglu_mlp",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L123",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [3549, 3606]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_native_gemma_layer_step",
+      "callee": "carbon_gemma_layer_step",
+      "is_member_call": true,
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L140",
+      "receiver": "_lib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [4009, 4227]
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_float",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_float",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L51"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_float",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_python_carbon_core_carbon_core_ffi_py",
+      "callee": "c_uint",
+      "is_member_call": true,
+      "receiver": "ctypes",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "python/carbon_core/carbon_core/ffi.py",
+      "source_location": "L71"
+    }
+  ]
+}

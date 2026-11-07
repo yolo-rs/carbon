@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {
+      "id": "pkg_carbon_ffi",
+      "label": "carbon_ffi",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "cargo",
+      "source_file": "crates/carbon_ffi/Cargo.toml",
+      "source_location": "L1",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": []
+}

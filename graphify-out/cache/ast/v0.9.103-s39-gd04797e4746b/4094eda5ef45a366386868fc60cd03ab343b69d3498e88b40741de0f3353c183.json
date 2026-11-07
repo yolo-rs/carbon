@@ -1,0 +1,418 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_readme_google_deepmind_carbon_project_carbon",
+      "label": "Google DeepMind Carbon (Project Carbon)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_readme_1_executive_vision_architecture",
+      "label": "1. Executive Vision & Architecture",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_readme_2_repository_layout",
+      "label": "2. Repository Layout",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "$graphify-root$_readme_3_quick_start_verification_commands",
+      "label": "3. Quick Start & Verification Commands",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L90"
+    },
+    {
+      "id": "$graphify-root$_readme_rust_bare_metal_kernel_compilation_tests",
+      "label": "Rust Bare-Metal Kernel Compilation & Tests",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "$graphify-root$_readme_upstream_bun_v1_4_4_monorepo_standalone_aot_binary",
+      "label": "Upstream Bun v1.4.4+ Monorepo & Standalone AoT Binary",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L99"
+    },
+    {
+      "id": "$graphify-root$_readme_astral_uv_python_monorepo",
+      "label": "Astral `uv` Python Monorepo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L125"
+    },
+    {
+      "id": "$graphify-root$_readme_4_license",
+      "label": "4. License",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L138"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_readme_md",
+      "target": "$graphify-root$_readme_google_deepmind_carbon_project_carbon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_google_deepmind_carbon_project_carbon",
+      "target": "$graphify-root$_readme_1_executive_vision_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_google_deepmind_carbon_project_carbon",
+      "target": "$graphify-root$_readme_2_repository_layout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_google_deepmind_carbon_project_carbon",
+      "target": "$graphify-root$_readme_3_quick_start_verification_commands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_3_quick_start_verification_commands",
+      "target": "$graphify-root$_readme_rust_bare_metal_kernel_compilation_tests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_3_quick_start_verification_commands",
+      "target": "$graphify-root$_readme_upstream_bun_v1_4_4_monorepo_standalone_aot_binary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_3_quick_start_verification_commands",
+      "target": "$graphify-root$_readme_astral_uv_python_monorepo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_google_deepmind_carbon_project_carbon",
+      "target": "$graphify-root$_readme_4_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_readme_md",
+      "target": "$graphify-root$_license_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L140",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "dll",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_ffi.dll",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "qualifiers": ["carbon_ffi"]
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "ctypes",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "ctypes",
+      "source_file": "README.md",
+      "source_location": "L21"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_engine_version",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_engine_version",
+      "source_file": "README.md",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_dot_product",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_dot_product",
+      "source_file": "README.md",
+      "source_location": "L23"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_cosine_similarity",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_cosine_similarity",
+      "source_file": "README.md",
+      "source_location": "L24"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_softmax_inplace",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_softmax_inplace",
+      "source_file": "README.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_rmsnorm_gemma",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_rmsnorm_gemma",
+      "source_file": "README.md",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_geglu_mlp",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_geglu_mlp",
+      "source_file": "README.md",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_rope_inplace",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_rope_inplace",
+      "source_file": "README.md",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_matvec_f32",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_matvec_f32",
+      "source_file": "README.md",
+      "source_location": "L29"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_gemma_layer_step",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_gemma_layer_step",
+      "source_file": "README.md",
+      "source_location": "L30"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "com",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gemini.google.com",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "qualifiers": ["gemini", "google"]
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "RotateCookies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "RotateCookies",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "WIZ_global_data",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "WIZ_global_data",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "SNlM0e",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "SNlM0e",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "deep_research",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "deep_research",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "canvas",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "canvas",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "gems",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "gems",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "saved_info",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "saved_info",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "toml",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Cargo.toml",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "qualifiers": ["Cargo"]
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "GEMMA_WGSL_MATMUL",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GEMMA_WGSL_MATMUL",
+      "source_file": "README.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "GEMMA_WGSL_RMSNORM",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GEMMA_WGSL_RMSNORM",
+      "source_file": "README.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "GEMMA_WGSL_GEGLU",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GEMMA_WGSL_GEGLU",
+      "source_file": "README.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "GEMMA_WGSL_ROPE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "GEMMA_WGSL_ROPE",
+      "source_file": "README.md",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "uv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uv",
+      "source_file": "README.md",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "carbon_ffi",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_ffi",
+      "source_file": "README.md",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_1_executive_vision_architecture",
+      "callee": "StreamGenerate",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "StreamGenerate",
+      "source_file": "README.md",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "$graphify-root$_readme_astral_uv_python_monorepo",
+      "callee": "uv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uv",
+      "source_file": "README.md",
+      "source_location": "L125"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

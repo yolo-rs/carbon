@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "pkg_carbon_gemini_web",
+      "label": "carbon-gemini-web",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "python/carbon_gemini_web/pyproject.toml",
+      "source_location": "L1",
+      "version": "4.0.0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pkg_carbon_gemini_web",
+      "target": "pkg_carbon_core",
+      "relation": "depends_on",
+      "context": "dependency",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "python/carbon_gemini_web/pyproject.toml",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ]
+}

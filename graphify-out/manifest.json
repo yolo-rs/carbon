@@ -1,0 +1,494 @@
+{
+  "Cargo.toml": {
+    "mtime": 1794018394.856108,
+    "seen": 1794018436.2837188,
+    "ast_hash": "f7d710f54426c458223e21a58a0ebd5f",
+    "semantic_hash": ""
+  },
+  "crates/carbon_ffi/Cargo.toml": {
+    "mtime": 1794017388.714595,
+    "seen": 1794018370.116654,
+    "ast_hash": "4877b4fa2d0dbc2a6aa3f474886b89f4",
+    "semantic_hash": ""
+  },
+  "crates/carbon_ffi/src/lib.rs": {
+    "mtime": 1794017428.274044,
+    "seen": 1794018370.1166563,
+    "ast_hash": "d02ca935e7ccab39c62ee709506366f5",
+    "semantic_hash": ""
+  },
+  "infra/gcp/cloudbuild.yaml": {
+    "mtime": 1794017311.2610166,
+    "seen": 1794018370.1166575,
+    "ast_hash": "71351a6194ac723bd2b4ce9fb08d2812",
+    "semantic_hash": ""
+  },
+  "infra/gcp/service.ew9.yaml": {
+    "mtime": 1794017324.5843356,
+    "seen": 1794018370.1166584,
+    "ast_hash": "2324b61b9ca1d09dad1e243ffd7ca812",
+    "semantic_hash": ""
+  },
+  "infra/gcp/vertex-gemma4-sft-job.yaml": {
+    "mtime": 1794018394.8515458,
+    "seen": 1794018436.284078,
+    "ast_hash": "2f95825fbcd601a22acb4841ee4d9a01",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1794025330.2484868,
+    "seen": 1794025387.4386692,
+    "ast_hash": "8f1d53f5dd9ad362f142c8603926fd86",
+    "semantic_hash": ""
+  },
+  "packages/cli/package.json": {
+    "mtime": 1794021922.4226875,
+    "seen": 1794021947.4745283,
+    "ast_hash": "52d95359f5c50ee2786f73693affe2d7",
+    "semantic_hash": ""
+  },
+  "packages/cli/src/index.ts": {
+    "mtime": 1794025325.2365015,
+    "seen": 1794025387.4387503,
+    "ast_hash": "7606dbf49109d6a2121994979a632a4e",
+    "semantic_hash": ""
+  },
+  "packages/core/package.json": {
+    "mtime": 1794021891.5435395,
+    "seen": 1794021947.4746027,
+    "ast_hash": "98974fccc0147a4faf67c3620a8657e8",
+    "semantic_hash": ""
+  },
+  "packages/core/src/data.json": {
+    "mtime": 1794021910.1748464,
+    "seen": 1794021947.474604,
+    "ast_hash": "d5ea873071667c28ed945fd398daa2ef",
+    "semantic_hash": ""
+  },
+  "packages/core/src/ffi.ts": {
+    "mtime": 1794022828.578209,
+    "seen": 1794022939.5862377,
+    "ast_hash": "c172f3f4ba12b4b6a44dec94b9d95b56",
+    "semantic_hash": ""
+  },
+  "packages/core/src/index.ts": {
+    "mtime": 1794017624.109711,
+    "seen": 1794018370.1166654,
+    "ast_hash": "dae5a26715d4996ef10d6a6b569e4611",
+    "semantic_hash": ""
+  },
+  "packages/core/src/types.ts": {
+    "mtime": 1794017592.939847,
+    "seen": 1794018370.116666,
+    "ast_hash": "e6bb0d53699c4fc64a2fb1812ea2e87f",
+    "semantic_hash": ""
+  },
+  "packages/dataset/package.json": {
+    "mtime": 1794021891.5437672,
+    "seen": 1794021947.4748054,
+    "ast_hash": "ec71499c891919266f253c2482667b78",
+    "semantic_hash": ""
+  },
+  "packages/dataset/src/index.ts": {
+    "mtime": 1794018406.0296464,
+    "seen": 1794018436.284561,
+    "ast_hash": "8109be6a3578b8433554975c37409673",
+    "semantic_hash": ""
+  },
+  "packages/graph-engine/package.json": {
+    "mtime": 1794021891.5437672,
+    "seen": 1794021947.4750838,
+    "ast_hash": "abfc992ae0bd3b7fc89d10657cf2d5c6",
+    "semantic_hash": ""
+  },
+  "packages/graph-engine/src/bun-architecture-graph.json": {
+    "mtime": 1794018394.8442726,
+    "seen": 1794018436.2846308,
+    "ast_hash": "baa2fa8ef292702e0a180fdb7f06afa5",
+    "semantic_hash": ""
+  },
+  "packages/graph-engine/src/index.ts": {
+    "mtime": 1794018394.847471,
+    "seen": 1794018436.2846315,
+    "ast_hash": "11db8079a695d3d7e413c1184387f0f5",
+    "semantic_hash": ""
+  },
+  "packages/mcp-server/package.json": {
+    "mtime": 1794021891.5442712,
+    "seen": 1794021947.4752169,
+    "ast_hash": "ff3ab1e3f8f0a00b55d2d5be2352f903",
+    "semantic_hash": ""
+  },
+  "packages/mcp-server/src/index.ts": {
+    "mtime": 1794025293.708245,
+    "seen": 1794025387.4398866,
+    "ast_hash": "43457b6a3d9581cf11e859fdf6dedfd8",
+    "semantic_hash": ""
+  },
+  "packages/mesh-cluster/package.json": {
+    "mtime": 1794021891.5447934,
+    "seen": 1794021947.475285,
+    "ast_hash": "7b164dfdd2a9ce9e68ad21edc614c452",
+    "semantic_hash": ""
+  },
+  "packages/mesh-cluster/src/index.ts": {
+    "mtime": 1794018394.847471,
+    "seen": 1794018436.284765,
+    "ast_hash": "079d2c18c88967efea6ba4e088aad3f7",
+    "semantic_hash": ""
+  },
+  "packages/web/package.json": {
+    "mtime": 1794021891.5447934,
+    "seen": 1794021947.4753509,
+    "ast_hash": "832888b87586518c72404134cf76f235",
+    "semantic_hash": ""
+  },
+  "packages/web/src/index.ts": {
+    "mtime": 1794025328.8445892,
+    "seen": 1794025387.4400983,
+    "ast_hash": "739c3c1f1d0960aed91765bb82b3eaf1",
+    "semantic_hash": ""
+  },
+  "packages/webgpu-gemma/package.json": {
+    "mtime": 1794021891.5447934,
+    "seen": 1794021947.4754293,
+    "ast_hash": "e56cc124df3ff5b021469b97f8ffbbd5",
+    "semantic_hash": ""
+  },
+  "packages/webgpu-gemma/src/index.ts": {
+    "mtime": 1794018394.847471,
+    "seen": 1794018436.2848983,
+    "ast_hash": "26ac401e301cafde579919389b06ebc1",
+    "semantic_hash": ""
+  },
+  "python/carbon_cli/carbon_cli/__init__.py": {
+    "mtime": 1794018169.9495893,
+    "seen": 1794018370.1166773,
+    "ast_hash": "5250226fa63f01d6bb064b58cd20bd67",
+    "semantic_hash": ""
+  },
+  "python/carbon_cli/carbon_cli/main.py": {
+    "mtime": 1794018355.4161797,
+    "seen": 1794018370.116678,
+    "ast_hash": "7f586d271eef0b59dc17a47680253809",
+    "semantic_hash": ""
+  },
+  "python/carbon_cli/pyproject.toml": {
+    "mtime": 1794015792.064769,
+    "seen": 1794018370.116679,
+    "ast_hash": "351a6e098f3cab854067da23c55ec188",
+    "semantic_hash": ""
+  },
+  "python/carbon_core/carbon_core/__init__.py": {
+    "mtime": 1794018355.4161797,
+    "seen": 1794018370.1166797,
+    "ast_hash": "1ae1433cd03eb3989c939037908ab268",
+    "semantic_hash": ""
+  },
+  "python/carbon_core/carbon_core/ffi.py": {
+    "mtime": 1794022920.8376832,
+    "seen": 1794022939.5877554,
+    "ast_hash": "ae161808e063ed623251ffa89ed428f6",
+    "semantic_hash": ""
+  },
+  "python/carbon_core/pyproject.toml": {
+    "mtime": 1794013855.2199457,
+    "seen": 1794018370.116681,
+    "ast_hash": "cfa38764aff34cb1234479c5afcc710d",
+    "semantic_hash": ""
+  },
+  "python/carbon_graph/carbon_graph/__init__.py": {
+    "mtime": 1794018136.4159837,
+    "seen": 1794018370.116682,
+    "ast_hash": "29b9b363e8deadf8538fd6c23fff6f7e",
+    "semantic_hash": ""
+  },
+  "python/carbon_graph/pyproject.toml": {
+    "mtime": 1794016718.213235,
+    "seen": 1794018370.1166828,
+    "ast_hash": "d5c9489303864f08d20e132897c4eb3d",
+    "semantic_hash": ""
+  },
+  "python/carbon_web/carbon_web/__init__.py": {
+    "mtime": 1794018196.8292134,
+    "seen": 1794018370.1166835,
+    "ast_hash": "3611f4341fb67ff179627e4889ad4458",
+    "semantic_hash": ""
+  },
+  "python/carbon_web/carbon_web/server.py": {
+    "mtime": 1794018355.6156268,
+    "seen": 1794018370.1166842,
+    "ast_hash": "86d8ccdf99f813be367e6a9f64239133",
+    "semantic_hash": ""
+  },
+  "python/carbon_web/pyproject.toml": {
+    "mtime": 1794015792.064769,
+    "seen": 1794018370.1166852,
+    "ast_hash": "4208d7903a7269452b6dbb02d6f098ef",
+    "semantic_hash": ""
+  },
+  "python/gemma_train/gemma_train/__init__.py": {
+    "mtime": 1794018097.3193214,
+    "seen": 1794018370.1166859,
+    "ast_hash": "67862737579ac916a5a6e3f374a1215d",
+    "semantic_hash": ""
+  },
+  "python/gemma_train/gemma_train/train.py": {
+    "mtime": 1794018355.6161623,
+    "seen": 1794018370.1166866,
+    "ast_hash": "babd46fde433bf5c9ca03bc7eaa8159d",
+    "semantic_hash": ""
+  },
+  "python/gemma_train/pyproject.toml": {
+    "mtime": 1794016539.4291162,
+    "seen": 1794018370.116687,
+    "ast_hash": "72ee7f61b1e570d0ce96fd43c887eeec",
+    "semantic_hash": ""
+  },
+  "src/main.ts": {
+    "mtime": 1794018032.3010588,
+    "seen": 1794018370.1166878,
+    "ast_hash": "5930bffc83dfa2a9577c51354f412c0d",
+    "semantic_hash": ""
+  },
+  "tests/carbon.test.ts": {
+    "mtime": 1794025361.7540953,
+    "seen": 1794025387.44159,
+    "ast_hash": "a48bffed377cf56856e9f0b7dc81d9ba",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1794019929.9873915,
+    "seen": 1794019975.718535,
+    "ast_hash": "35b9b1c788ed2a5ff0d6c8a321a00a0e",
+    "semantic_hash": ""
+  },
+  "CONTRIBUTING.md": {
+    "mtime": 1794017204.1892943,
+    "seen": 1794018370.1166904,
+    "ast_hash": "297e8a934ca31e5467aa05eaca6da841",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1794021937.3269248,
+    "seen": 1794021947.4768322,
+    "ast_hash": "b6968bdc88d5e8b0bf2c11189d1a9383",
+    "semantic_hash": ""
+  },
+  "SECURITY.md": {
+    "mtime": 1794017217.796366,
+    "seen": 1794018370.116692,
+    "ast_hash": "05cb85d317e3272b438c197236f1f296",
+    "semantic_hash": ""
+  },
+  "docs/ARCHITECTURE-AND-BEST-PRACTICES.md": {
+    "mtime": 1794019929.9853914,
+    "seen": 1794019975.7186637,
+    "ast_hash": "66813d84674dc0eda2fd165e496e51b4",
+    "semantic_hash": ""
+  },
+  "docs/BUN-UPSTREAM-KNOWLEDGE-AND-GRAPH.md": {
+    "mtime": 1794016739.4854724,
+    "seen": 1794018370.1166937,
+    "ast_hash": "f422190303d529a2eeb73ed4d762fecc",
+    "semantic_hash": ""
+  },
+  "docs/UNIFIED-CLUSTER-AND-GEMMA-ARCHITECTURE.md": {
+    "mtime": 1794016539.4291162,
+    "seen": 1794018370.1166945,
+    "ast_hash": "d5ea11db98eccc4eead7ced56995103a",
+    "semantic_hash": ""
+  },
+  "python/carbon_cli/README.md": {
+    "mtime": 1794015792.064769,
+    "seen": 1794018370.1166954,
+    "ast_hash": "f7db58ca399bd2368a2ca4d450cf4e5f",
+    "semantic_hash": ""
+  },
+  "python/carbon_core/README.md": {
+    "mtime": 1794015792.0637655,
+    "seen": 1794018370.1166961,
+    "ast_hash": "33121cfcebc74d27e39749bd7d4671d9",
+    "semantic_hash": ""
+  },
+  "python/carbon_graph/README.md": {
+    "mtime": 1794016743.675563,
+    "seen": 1794018370.1166968,
+    "ast_hash": "8a6c326de5cd2db3d2f9f79cfff79b35",
+    "semantic_hash": ""
+  },
+  "python/carbon_web/README.md": {
+    "mtime": 1794015792.0637655,
+    "seen": 1794018370.1166975,
+    "ast_hash": "8dfd2e994b0058f7e5d250c8e6c7d2cf",
+    "semantic_hash": ""
+  },
+  "python/gemma_train/README.md": {
+    "mtime": 1794016539.4291162,
+    "seen": 1794018370.1166987,
+    "ast_hash": "10d8512d28be83396e1b395b99132575",
+    "semantic_hash": ""
+  },
+  "assets/brand/deepmind-mark.svg": {
+    "mtime": 1794017260.4845207,
+    "seen": 1794018370.1166995,
+    "ast_hash": "bd81da7bdd94558bcc5ce3b1128e0602",
+    "semantic_hash": ""
+  },
+  "assets/brand/gemini-sparkle.svg": {
+    "mtime": 1794017271.7846193,
+    "seen": 1794018370.1167002,
+    "ast_hash": "b3a875236cda2d330d081ceff81b18d6",
+    "semantic_hash": ""
+  },
+  "assets/brand/paris-global-topology.svg": {
+    "mtime": 1794017295.11036,
+    "seen": 1794018370.116701,
+    "ast_hash": "d376e4152d49ba734bc95f9ce3d5b8d7",
+    "semantic_hash": ""
+  },
+  "infra/gateway/litellm-config.yaml": {
+    "mtime": 1794019448.7525885,
+    "seen": 1794019975.7163868,
+    "ast_hash": "7296a9c9bdc74ba47ee6b1b655f5ec04",
+    "semantic_hash": ""
+  },
+  "infra/gateway/open-webui-connection.json": {
+    "mtime": 1794019929.9873915,
+    "seen": 1794019975.7163887,
+    "ast_hash": "46fa7e23e3a785089556de9d45d9c1ba",
+    "semantic_hash": ""
+  },
+  "mirror/design.google/index.json": {
+    "mtime": 1794021910.1748464,
+    "seen": 1794021947.4745257,
+    "ast_hash": "d57b787981498c5b9cfae7ac8b25d727",
+    "semantic_hash": ""
+  },
+  "packages/core/src/web-memory.json": {
+    "mtime": 1794025384.3715353,
+    "seen": 1794025387.4391222,
+    "ast_hash": "b00f58a5f832715b6a1c46b07f919ef1",
+    "semantic_hash": ""
+  },
+  "packages/design-crawler/package.json": {
+    "mtime": 1794021891.5437672,
+    "seen": 1794021947.474874,
+    "ast_hash": "03acd72260bea82e66f290c585876939",
+    "semantic_hash": ""
+  },
+  "packages/design-crawler/src/index.ts": {
+    "mtime": 1794019994.8835294,
+    "seen": 1794020007.3897762,
+    "ast_hash": "a5ec2df36c0a49c086c5b1a491b026fc",
+    "semantic_hash": ""
+  },
+  "packages/gemini-web-client/package.json": {
+    "mtime": 1794021891.5437672,
+    "seen": 1794021947.4749448,
+    "ast_hash": "021d72de32ac83e9a56fd4a135f68c08",
+    "semantic_hash": ""
+  },
+  "packages/gemini-web-client/src/ecosystem-benchmarks.ts": {
+    "mtime": 1794019962.648146,
+    "seen": 1794019975.7170823,
+    "ast_hash": "4616fd17a7580561ccea5e5c77abfa83",
+    "semantic_hash": ""
+  },
+  "packages/gemini-web-client/src/index.ts": {
+    "mtime": 1794025384.0312138,
+    "seen": 1794025387.4395738,
+    "ast_hash": "f3d225548d034147ef99989829d40cff",
+    "semantic_hash": ""
+  },
+  "python/carbon_gemini_web/carbon_gemini_web/__init__.py": {
+    "mtime": 1794019934.3868022,
+    "seen": 1794019975.7179475,
+    "ast_hash": "5ba9603387fed37c2523200dba99fac5",
+    "semantic_hash": ""
+  },
+  "python/carbon_gemini_web/pyproject.toml": {
+    "mtime": 1794019929.9873915,
+    "seen": 1794019975.7179487,
+    "ast_hash": "035928d474622828a2431115e447efcb",
+    "semantic_hash": ""
+  },
+  "mirror/design.google/evolving-google-identity.html": {
+    "mtime": 1794021910.1748464,
+    "seen": 1794021947.4770904,
+    "ast_hash": "f7228311d8035b2861a5020281a0c74f",
+    "semantic_hash": ""
+  },
+  "mirror/design.google/home.html": {
+    "mtime": 1794021910.1748464,
+    "seen": 1794021947.4770913,
+    "ast_hash": "eb42273c0c74d56938f52b3fcc6d3f05",
+    "semantic_hash": ""
+  },
+  "python/carbon_gemini_web/README.md": {
+    "mtime": 1794019490.1640093,
+    "seen": 1794019975.718921,
+    "ast_hash": "a0d7462c72ff0b50aa3054077e2b2733",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci-cd-publish.yml": {
+    "mtime": 1794022812.945064,
+    "seen": 1794022939.5852008,
+    "ast_hash": "c1f6d3f465f3e167f9e4c4c37f972160",
+    "semantic_hash": ""
+  },
+  "python/tests/test_carbon.py": {
+    "mtime": 1794022906.8540533,
+    "seen": 1794022939.5884848,
+    "ast_hash": "f04d165d9f9fe2d14fccc1f1cc46e693",
+    "semantic_hash": ""
+  },
+  "scripts/pipeline.ts": {
+    "mtime": 1794025367.8007853,
+    "seen": 1794025387.4415133,
+    "ast_hash": "88675ad3783286e03b903f4aa3d5b3b4",
+    "semantic_hash": ""
+  },
+  "docs/GPUI_ANTIGRAVITY_ROADMAP.md": {
+    "mtime": 1794023688.4943862,
+    "seen": 1794023694.7738335,
+    "ast_hash": "4783f6d173752f3c21addc7e77898fd3",
+    "semantic_hash": ""
+  },
+  "go/carbon_sdk.go": {
+    "mtime": 1794025204.6037023,
+    "seen": 1794025387.4381986,
+    "ast_hash": "b7dd537bf7dca890d39c62e4ae03c1ed",
+    "semantic_hash": ""
+  },
+  "go/carbon_sdk_test.go": {
+    "mtime": 1794025206.6813273,
+    "seen": 1794025387.4382002,
+    "ast_hash": "b323b7b1fe8eb1f2877b081a60056eb9",
+    "semantic_hash": ""
+  },
+  "go/go.mod": {
+    "mtime": 1794025202.2094083,
+    "seen": 1794025387.4382012,
+    "ast_hash": "cfb03fff57f2c5cf67bac6772bb3813e",
+    "semantic_hash": ""
+  },
+  ".agents/rules/gemini-web-memory.md": {
+    "mtime": 1794025161.4737642,
+    "seen": 1794025387.4416583,
+    "ast_hash": "db8c099bcc65b9cf1f82f2293dad84de",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1794025384.0342648,
+    "seen": 1794025387.4416597,
+    "ast_hash": "23986223a3bd6f8be44fd3c356b8fdd1",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1794025384.0332596,
+    "seen": 1794025387.4417443,
+    "ast_hash": "9bd53a3307c74bdeda92ce0d383e2cf9",
+    "semantic_hash": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {
+      "id": "pkg_carbon_graph",
+      "label": "carbon-graph",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "python/carbon_graph/pyproject.toml",
+      "source_location": "L1",
+      "version": "1.0.0"
+    }
+  ],
+  "edges": []
+}

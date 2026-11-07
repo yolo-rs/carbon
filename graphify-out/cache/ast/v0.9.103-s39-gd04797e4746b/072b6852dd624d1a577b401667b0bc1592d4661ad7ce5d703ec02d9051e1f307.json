@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_md",
+      "label": "ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_architecture_reference",
+      "label": "Google DeepMind Carbon \u2014 Gemini 4 Argon Code Review & Architecture Reference",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "label": "1. Gemini 4 Argon (High Reasoning) Deep Code Review of Prior Session",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_2_upstream_bun_v1_4_4_toolchain_reference",
+      "label": "2. Upstream Bun v1.4.4+ Toolchain Reference",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "label": "3. Astral `uv` & Ruff Python Standards",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_md",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_architecture_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_architecture_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_architecture_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_2_upstream_bun_v1_4_4_toolchain_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_docs_architecture_and_best_practices_google_deepmind_carbon_gemini_4_argon_code_review_architecture_reference",
+      "target": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L31",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "toml",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "Cargo.toml",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L12",
+      "qualifiers": ["Cargo"]
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "carbon_gemma_layer_step",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "carbon_gemma_layer_step",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "parseWorkspaceMembers",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parseWorkspaceMembers",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "parseCargoDependencies",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "parseCargoDependencies",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "queryBunCodebaseGraph",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "queryBunCodebaseGraph()",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L13"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "initialize",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "initialize",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "LICENSE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "LICENSE",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "NOTICE",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "NOTICE",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_1_gemini_4_argon_high_reasoning_deep_code_review_of_prior_session",
+      "callee": "AUTHORS",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "AUTHORS",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_2_upstream_bun_v1_4_4_toolchain_reference",
+      "callee": "tsgo",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "tsgo",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L25"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "callee": "uv",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "uv",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "callee": "E",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "E",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "callee": "F",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "F",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "callee": "I",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "I",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "callee": "UP",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "UP",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L34"
+    },
+    {
+      "caller_nid": "$graphify-root$_docs_architecture_and_best_practices_3_astral_uv_ruff_python_standards",
+      "callee": "RUF",
+      "is_member_call": false,
+      "language": "markdown",
+      "context": "RUF",
+      "source_file": "docs/ARCHITECTURE-AND-BEST-PRACTICES.md",
+      "source_location": "L34"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
